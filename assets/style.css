@@ -50,6 +50,9 @@ main {
     padding: 20px;
     font-size: 1.2rem;
 }
+.card-top h2 {
+    font-size: 1.2rem;
+}
 .card-top img {
    width: 150px;
    height: 150px;
@@ -76,7 +79,7 @@ main {
 .card-bottom h1 {
     font-size: 1.8rem;
 }
-.card-bottom h2 {
+.card-bottom h3 {
     font-style: bold;
     text-align: center;
     font-size: 1.3rem;
@@ -93,7 +96,6 @@ main {
     margin-bottom: 10px;
     height: 16px;
     padding: 0 10px;
-
 }
 #total {
     margin: 20px 0;

@@ -12,40 +12,51 @@
         <main>
             <section class="poke-card">
                 <div class="card-top">
-                    <span id="poke-id">#006</span>
+                    <h2 id="poke-id">#<span>006</span></h2>
                     <div id="poke-image">
                         <img src="https://www.pngmart.com/files/2/Pikachu-PNG-Transparent-Image.png">
                     </div>
                 </div>  
+                <!-- caminhos para quem vai cuidar da API --> 
+                <!--
+                    imagem do pokemom 
+                    document.querySelector('#poke-image').innerHTML =`<img src="${linkDaImagem}">`
+
+                    pontos do atributo 
+                    document.querySelector('#oAtributo .percent-progress span').innerText = pontuacao;
+
+                    nível da bara do atributo 
+                    document.querySelector('#oAtributo .percent-progress').style.width = `${(pontuacao * 100) / 1000}%`
+                 --> 
                 <div class="card-bottom">
                     <div class="poke-info">
                         <h1 id="poke-name">Pikachu</h1>
                         <p id="poke-type">Rato kkk</p>
                     </div>
                     <ul class="atributes-list">
-                        <h2>status</h2>
+                        <h3>status</h3>
                         <li id="hp"> 
                             <span>HP</span>
                             <div class="percent-bar">
-                                <div class="percent-progress">400/1000</div>
+                                <div class="percent-progress"><span></span>/1000</div>
                             </div>
                         </li>
-                        <li id="atack">
+                        <li id="ataque">
                             <span>ATK</span>
                             <div class="percent-bar">
-                                <div class="percent-progress">600/1000</div>
+                                <div class="percent-progress"><span></span>/1000</div>
                             </div>
                         </li>
-                        <li id="defense">
+                        <li id="defesa">
                             <span>DEF</span>
                             <div class="percent-bar">
-                                <div class="percent-progress">400/1000</div>
+                                <div class="percent-progress"><span></span>/1000</div>
                             </div>
                         </li>
-                        <li id="velocity">
+                        <li id="velocidade">
                             <span>VEL</span>
                             <div class="percent-bar">
-                                <div class="percent-progress">900/1000</div>
+                                <div class="percent-progress"><span></span>/1000</div>
                             </div>
                         </li>
                         <li id="total">TOTAL:<span>2300</span></li>
