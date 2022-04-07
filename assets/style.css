@@ -4,6 +4,9 @@
     box-sizing: border-box;
     list-style: none;
 }
+:root {
+    --secundary-color:hsl(0, 0%, 24%); 
+}
 body {
     width: 100%;
     height: 100vh;
@@ -11,60 +14,118 @@ body {
 }
 .container {
     height: 100%;
+    width: 100%;
+    background: gray;
+    overflow: hidden;
 }
-.container, main {
-    background: hsla(60, 49%, 75%, 0.7);
+.container, main, .poke-info,.poke-type{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+p, span {
+    text-shadow: 0 1px hsla(0, 0%, 0%, 0.3);
 }
 main {
   background: transparent;
 }
 .poke-card {
-    background: white;
+    background:var(--secundary-color);
     margin: 20px;
     width: 320px;
     height: 550px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: .8rem;
 }
 .card-top {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     height: 50%;
     width: 100%;
-    background: hsl(39, 100%, 74%);
-    border-radius: 3px 3px 0 0;
-    padding: 25px;
+    background: radial-gradient(hsl(39, 67%, 70%),hsl(39, 63%, 53%));
+    border-radius: 3px 3px 40px 40px;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.card-top img {
+   width: 150px;
+   height: 150px;
+}
+.poke-info {
+    flex-direction: column;
 }
 #poke-type {
+    width: 35%;
+    padding: 2px 0;
+    margin-bottom: 10px;
     background: hsla(0, 0%, 100%, 0.8);
     color: hsla(0, 0%, 0%, 0.8);
-    border-radius: 10px;
-    padding: 0 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.8rem;
+    background: hsl(39, 30%, 42%);
+    color: white;
 }
 .card-bottom {
-    color: black;
-    display: flex;
-    padding: 50px 20px;
+    color: white;
+    padding: 20px;
+}
+.card-bottom h1 {
+    font-size: 1.8rem;
 }
 .card-bottom h2 {
     font-style: bold;
+    text-align: center;
     font-size: 1.3rem;
     margin-bottom: 15px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 .atributes-list {
-   width: 50%;
+   width: 100%;
 }
 .card-bottom li {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 10px;
+    height: 16px;
+    padding: 0 10px;
+
 }
-img {
-    width: 80px;
-    height: 80px;
+#total {
+    margin: 20px 0;
+    justify-content: center;
+}
+.percent-bar {
+    background: white;
+    border-radius: 18px;
+    width: 85%;
+    height: 100%;
+}
+.percent-progress {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border-radius: 6px;
+    text-align: right;
+}
+/*os widths serão adicionados por JS, os atribui apenas para demonstração*/ 
+.card-bottom li:nth-child(2) .percent-progress {
+    background: hsla(130, 41%, 49%, 0.8);
+    width: 40%;
+}
+.card-bottom li:nth-child(3) .percent-progress {
+    background: hsla(0, 100%, 30%, 0.8);
+    width: 60%;
+}
+.card-bottom li:nth-child(4) .percent-progress {
+    background: hsla(231, 100%, 30%, 0.8);
+    width: 40%;
+}
+.card-bottom li:nth-child(5) .percent-progress {
+    background: hsla(177, 100%, 30%, 0.8);
+    width: 90%;
 }
