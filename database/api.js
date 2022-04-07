@@ -107,6 +107,4 @@ const pokemons = [
   },
 ]
 
-module.exports = {
-  pokemons,
-}
+exports.module = pokemons;

@@ -115,19 +115,19 @@ main {
     text-align: right;
 }
 /*os widths serão adicionados por JS, os atribui apenas para demonstração*/ 
-.card-bottom li:nth-child(2) .percent-progress {
+.card-bottom li:nth-child(3) .percent-progress {
     background: hsla(130, 41%, 49%, 0.8);
     width: 40%;
 }
-.card-bottom li:nth-child(3) .percent-progress {
+.card-bottom li:nth-child(4) .percent-progress {
     background: hsla(0, 100%, 30%, 0.8);
     width: 60%;
 }
-.card-bottom li:nth-child(4) .percent-progress {
+.card-bottom li:nth-child(5) .percent-progress {
     background: hsla(231, 100%, 30%, 0.8);
     width: 40%;
 }
-.card-bottom li:nth-child(5) .percent-progress {
-    background: hsla(177, 100%, 30%, 0.8);
+.card-bottom li:nth-child(6) .percent-progress {
+    background: hsla(91, 85%, 43%, 0.9);
     width: 90%;
 }
