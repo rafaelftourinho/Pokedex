@@ -118,7 +118,7 @@ main {
     height: 100%;
 }
 .percent-progress {
-    transition: 0.4s;
+    transition: 0.3s;
     width: 0;
     height: 100%;
     padding-right: 10px;
