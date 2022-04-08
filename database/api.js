@@ -322,25 +322,6 @@ const pokemons = [
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png'
   },
-
-  {
-    id: 18,
-    nome: 'Pidgeot',
-    tipo: 'Normal / Voador',
-    hp: 280,
-    ataque: 300,
-    defesa: 280,
-    velocidade: 330,
-    total: 1190,
-    habilidades: [
-      {
-        habilidade1: 'Ataque de Vento',
-        habilidade2: 'Tempestade Giratória',
-      }
-    ],
-    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png'
-  },
-
   {
     id: 19,
     nome: 'Ratatta',
@@ -628,7 +609,6 @@ const pokemons = [
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png'
   },
-    
       {
     id: 111,
     nome: 'Rhyhorn',
