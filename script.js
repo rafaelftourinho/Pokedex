@@ -23,7 +23,6 @@ const changePokemon = (pokemon) => {
     status.forEach(stt => {
        const sttHTML = cardHtml.querySelector(`#${stt}`), barHTML = sttHTML.querySelector('.percent-progress');
        barHTML.style.width = (''+pokemon[sttHTML.id] * 100) / 1000 +'%';
-       addAnimation(barHTML,'charge', 0.4);
        sttHTML.querySelector('.percent-progress').innerText = pokemon[sttHTML.id];
        total += pokemon[sttHTML.id];
     });

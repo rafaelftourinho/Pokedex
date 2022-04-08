@@ -118,16 +118,12 @@ main {
     height: 100%;
 }
 .percent-progress {
-    width: 100%;
+    transition: 0.4s;
+    width: 0;
     height: 100%;
     padding-right: 10px;
     border-radius: 6px;
     text-align: right;
-}
-@keyframes charge {
-    from {
-        width: 0;
-    }  
 }
 .card-bottom li:nth-child(3) .percent-progress {
     background: hsla(130, 41%, 49%, 0.8);
