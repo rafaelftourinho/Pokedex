@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+    user-select: none;
 }
 :root {
     --secundary-color:hsl(0, 0%, 24%); 
@@ -18,7 +19,7 @@ body {
     background: gray;
     overflow: hidden;
 }
-.container, main, .poke-info,.poke-type{
+.container, main, .poke-info, .poke-type{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,15 +28,18 @@ p, span {
     text-shadow: 0 1px hsla(0, 0%, 0%, 0.3);
 }
 main {
+  height: 80%;
   background: transparent;
+}
+.poke-card, .poke-list ul {
+    border-radius: 5px;
 }
 .poke-card {
     background:var(--secundary-color);
     margin: 20px;
     width: 320px;
-    height: 550px;
+    height: 100%;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
     font-size: .8rem;
 }
 .card-top {
@@ -130,4 +134,31 @@ main {
 .card-bottom li:nth-child(6) .percent-progress {
     background: hsla(91, 85%, 43%, 0.9);
     width: 90%;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+.poke-list {
+    height: 100%;
+}
+.poke-list ul {
+    height: 100%;
+    width: 220px;
+    background: var(--secundary-color);
+    overflow: scroll;
+}
+.poke-list ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 15px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+.poke-list ul li:hover {
+    background: hsla(0, 0%, 43%, 0.3);
+}
+.poke-list img {
+    width: 70px;
+    object-fit: cover;
 }

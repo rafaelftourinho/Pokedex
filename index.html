@@ -17,17 +17,6 @@
                         <img id = "imagem">
                     </div>
                 </div>  
-                <!-- caminhos para quem vai cuidar da API --> 
-                <!--
-                    imagem do pokemom 
-                    document.querySelector('#poke-image').innerHTML =`<img src="${linkDaImagem}">`
-
-                    pontos do atributo 
-                    document.querySelector('#oAtributo .percent-progress span').innerText = pontuacao;
-
-                    nível da bara do atributo 
-                    document.querySelector('#oAtributo .percent-progress').style.width = `${(pontuacao * 100) / 1000}%`
-                 --> 
                 <div class="card-bottom">
                     <div class="poke-info">
                         <h1 id="poke-name"><span id="nome"></span></h1>
@@ -65,11 +54,12 @@
                     <ul class="skills"></ul>
                 </div>
             </section>
-            <section class="poke-list"></section>
+            <section class="poke-list">
+                <ul></ul>
+            </section>
         </main>
     </div>
 </body>
-<script> var exports = {}; </script>
 <script src="database/api.js" type="text/javascript"></script>
 <script src="script.js" type="module"></script>
 </html>
