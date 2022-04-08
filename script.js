@@ -1,9 +1,15 @@
 console.log(pokemons)
 
+window.addEventListener("keydown", e => {
+    const key = e.code;
+    if(key == "ArrowUp") changeWtKeyboard(-1);
+    if(key == "ArrowDown") changeWtKeyboard(1);
+});
 const createList = () => {
    const listHtml = document.querySelector('.poke-list ul');
    pokemons.forEach(pokemon => {
       const div = document.createElement('li');
+      div.id = (pokemon.id);
       div.innerHTML += `<img src="${pokemon.img}">`;
       div.innerHTML += `<p>${pokemon.nome}</p>`;
       listHtml.appendChild(div);
@@ -13,11 +19,16 @@ const createList = () => {
 const changePokemon = pokemon => {
     const pokeImage = document.querySelector('#poke-image');
     pokeImage.innerHTML = `<img src="${pokemon.img}" alt="${pokemon.nome}">`;
+    selectPokemon(pokemon.id);
     addAnimation(pokeImage, 'fade', 0.4);
     changeTxt('#poke-id span', generateID(pokemon.id));
     changeTxt('#poke-name span', pokemon.nome);
     changeTxt('#poke-type', pokemon.tipo);
     updateStatus(pokemon);
+}
+const selectPokemon = id => {
+    document.querySelectorAll('.poke-list li').forEach(li => li.classList = '');
+    document.getElementById(`${id}`).classList.add('selected');
 }
 const updateStatus = pokemon => {
     const status = ['hp','ataque', 'defesa','velocidade']; let total = 0;
@@ -49,8 +60,3 @@ window.addEventListener('load',()=>{
     createList();
     changePokemon(pokemons[0]);
 })
-window.addEventListener("keydown", e => {
-    const key = e.code;
-    if(key == "ArrowUp") changeWtKeyboard(-1);
-    if(key == "ArrowDown") changeWtKeyboard(1);
-});
