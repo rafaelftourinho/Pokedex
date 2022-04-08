@@ -13,59 +13,51 @@
             <section class="poke-card">
                 <div class="card-top">
                     <h2 id="poke-id">#<span>006</span></h2>
-                    <div id="poke-image">
-                        <img src="https://www.pngmart.com/files/2/Pikachu-PNG-Transparent-Image.png">
-                    </div>
+                    <div id="poke-image"></div>
                 </div>  
-                <!-- caminhos para quem vai cuidar da API --> 
-                <!--
-                    imagem do pokemom 
-                    document.querySelector('#poke-image').innerHTML =`<img src="${linkDaImagem}">`
-
-                    pontos do atributo 
-                    document.querySelector('#oAtributo .percent-progress span').innerText = pontuacao;
-
-                    nível da bara do atributo 
-                    document.querySelector('#oAtributo .percent-progress').style.width = `${(pontuacao * 100) / 1000}%`
-                 --> 
                 <div class="card-bottom">
                     <div class="poke-info">
-                        <h1 id="poke-name">Pikachu</h1>
+                        <h1 id="poke-name"><span></span></h1>
                         <p id="poke-type">Rato kkk</p>
                     </div>
                     <ul class="atributes-list">
                         <h3>status</h3>
+                        <br />
                         <li id="hp"> 
                             <span>HP</span>
                             <div class="percent-bar">
-                                <div class="percent-progress"><span></span>/1000</div>
+                                <div class="percent-progress"></div>
                             </div>
                         </li>
                         <li id="ataque">
                             <span>ATK</span>
                             <div class="percent-bar">
-                                <div class="percent-progress"><span></span>/1000</div>
+                                <div class="percent-progress"></div>
                             </div>
                         </li>
                         <li id="defesa">
                             <span>DEF</span>
                             <div class="percent-bar">
-                                <div class="percent-progress"><span></span>/1000</div>
+                                <div class="percent-progress"></div>
                             </div>
                         </li>
                         <li id="velocidade">
                             <span>VEL</span>
                             <div class="percent-bar">
-                                <div class="percent-progress"><span></span>/1000</div>
-                            </div>
+                                <div class="percent-progress"></div>
+                            
                         </li>
-                        <li id="total">TOTAL:<span>2300</span></li>
+                        <li id="total">TOTAL:<span id="TOTAL"></span></li>
                     </ul>
                     <ul class="skills"></ul>
                 </div>
             </section>
-            <section class="poke-list"></section>
+            <section class="poke-list">
+                <ul></ul>
+            </section>
         </main>
     </div>
 </body>
+<script src="database/api.js" type="text/javascript"></script>
+<script src="script.js" type="module"></script>
 </html>
