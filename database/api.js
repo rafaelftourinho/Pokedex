@@ -149,7 +149,7 @@ const pokemons = [
     tipo: 'Água',
     hp: 330,
     ataque: 280,
-    defesa: 330
+    defesa: 330,
     velocidade: 270,
     total: 1210,
     habilidades: [
@@ -682,9 +682,7 @@ const pokemons = [
       }
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png'
-  },
-
-  
+  },  
 ]
 
 
