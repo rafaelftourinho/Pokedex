@@ -16,7 +16,7 @@ body {
 .container {
     height: 100%;
     width: 100%;
-    background: gray;
+    background: rgb(75, 75, 75);
     overflow: hidden;
 }
 .container, main, .poke-info, .poke-type{
@@ -156,6 +156,10 @@ main {
     padding: 0 20px 0 15px;
     margin: 10px 0;
     font-size: 1.2rem;
+}
+.selected {
+    transition: 0.5s;
+    background: linear-gradient(to bottom , rgb(109, 109, 109), rgb(153, 153, 153));
 }
 .poke-list ul li:hover {
     transition: 0.5s;
