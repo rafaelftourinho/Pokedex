@@ -27,7 +27,7 @@ p, span {
     text-shadow: 0 1px hsla(0, 0%, 0%, 0.3);
 }
 main {
-  background: transparent;
+    background: transparent;
 }
 .poke-card {
     background:var(--secundary-color);
@@ -54,8 +54,8 @@ main {
     font-size: 1.2rem;
 }
 .card-top img {
-   width: 150px;
-   height: 150px;
+    width: 150px;
+    height: 150px;
 }
 .poke-info {
     flex-direction: column;
@@ -87,7 +87,7 @@ main {
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 .atributes-list {
-   width: 100%;
+    width: 100%;
 }
 .card-bottom li {
     display: flex;
