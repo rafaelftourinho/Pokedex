@@ -56,7 +56,7 @@ main {
 }
 .card-top h2 {
     font-size: 1.2rem;
-
+}
 #poke-image img {
    width: 180px;
    object-fit: cover;
@@ -129,7 +129,6 @@ main {
         width: 0;
     }  
 }
-/*os widths serão adicionados por JS, os atribui apenas para demonstração*/ 
 .card-bottom li:nth-child(3) .percent-progress {
     background: hsla(130, 41%, 49%, 0.8);
 }
