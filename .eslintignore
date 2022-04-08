@@ -1,0 +1,6 @@
+.vscode
+.vscode/
+package.json
+package-lock.json
+README.md
+api.js

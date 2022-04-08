@@ -2,9 +2,11 @@
   "name": "pokedex",
   "version": "1.0.0",
   "description": "Pokedex",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js",
+    "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/marlondlacerda/Pokedex/issues"
   },
-  "homepage": "https://github.com/marlondlacerda/Pokedex#readme"
+  "homepage": "https://github.com/marlondlacerda/Pokedex#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-trybe-fundamentals": "^1.1.1",
+    "eslint-plugin-import": "^2.26.0",
+    "stylelint": "13.8.0",
+    "stylelint-config-standard": "20.0.0"
+  }
 }
