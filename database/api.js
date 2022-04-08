@@ -596,7 +596,7 @@ const pokemons = [
   {
     id: 34,
     nome: 'Nidoking',
-    tipo: 'Venenoso',
+    tipo: 'Venenoso / Terrestre',
     hp: 300,
     ataque: 340,
     defesa: 300,
@@ -610,10 +610,245 @@ const pokemons = [
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png',
   },
+
+  {
+    id: 98,
+    nome: 'Krabby',
+    tipo: 'Água',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
       {
+        habilidade1: 'Bolha',
+        habilidade2: 'Encarar',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png'
+  },
+
+  {
+    id: 99,
+    nome: 'Kingler',
+    tipo: 'Água',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Agarramento Compressor',
+        habilidade2: 'Guilhotina',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png'
+  },
+
+  {
+    id: 100,
+    nome: 'Voltorb',
+    tipo: 'Elétrico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Investida',
+        habilidade2: 'Autodestruição',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png'
+  },
+
+  {
+    id: 101,
+    nome: 'Electrode',
+    tipo: 'Elétrico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Explosão Sônica',
+        habilidade2: 'Explosão',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png'
+  },
+
+  {
+    id: 102,
+    nome: 'Exeggcute',
+    tipo: 'Grama / Psíquico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Barricada',
+        habilidade2: 'Hipnose',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png'
+  },
+
+  {
+    id: 103,
+    nome: 'Exeggutor',
+    tipo: 'Grama / Psíquico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Hipnose',
+        habilidade2: 'Raio Solar',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png'
+  },
+
+  {
+    id: 104,
+    nome: 'Cubone',
+    tipo: 'Terrestre',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Bastão de Osso',
+        habilidade2: 'Raiva',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png'
+  },
+
+  {
+    id: 105,
+    nome: 'Marowak',
+    tipo: 'Terrestre',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Bastão de Osso',
+        habilidade2: 'Ossomerangue',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png'
+  },
+
+  {
+    id: 106,
+    nome: 'Hitmonlee',
+    tipo: 'Lutador',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Chute Duplo',
+        habilidade2: 'Mega Chute',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png'
+  },
+
+  {
+    id: 107,
+    nome: 'Hitmonchan',
+    tipo: 'Lutador',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Soco de Cometa',
+        habilidade2: 'Mega Soco',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png'
+  },
+
+  {
+    id: 108,
+    nome: 'Lickitung',
+    tipo: 'Normal',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Enrolar',
+        habilidade2: 'Pisotear',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png'
+  },
+
+  {
+    id: 109,
+    nome: 'Koofing',
+    tipo: 'Venenoso',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Investida',
+        habilidade2: 'Cortina de Fumaça',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png'
+  },
+
+  {
+    id: 110,
+    nome: 'Weezing',
+    tipo: 'Venenoso',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Investida',
+        habilidade2: 'Lodo',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png'
+  },
+
+  {
     id: 111,
     nome: 'Rhyhorn',
-    tipo: 'Terra Pedra',
+    tipo: 'Terrestre / Pedra',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -631,7 +866,7 @@ const pokemons = [
   {
     id: 112,
     nome: 'Rhydon',
-    tipo: 'Terra Pedra',
+    tipo: 'Terrestre / Pedra',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -793,7 +1028,7 @@ const pokemons = [
   {
     id: 121,
     nome: 'Starmie',
-    tipo: 'Água Psíquico',
+    tipo: 'Água / Psíquico',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -811,7 +1046,7 @@ const pokemons = [
   {
     id: 122,
     nome: 'Mr. Mime',
-    tipo: 'Psíquico Fada',
+    tipo: 'Psíquico / Fada',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -829,7 +1064,7 @@ const pokemons = [
   {
     id: 123,
     nome: 'Scyther',
-    tipo: 'Inseto Voador',
+    tipo: 'Inseto / Voador',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -847,7 +1082,7 @@ const pokemons = [
   {
     id: 124,
     nome: 'Jinx',
-    tipo: 'Gelo Psíquico',
+    tipo: 'Gelo / Psíquico',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -973,7 +1208,7 @@ const pokemons = [
   {
     id: 131,
     nome: 'Lapras',
-    tipo: 'Água Gelo',
+    tipo: 'Água / Gelo',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -1099,7 +1334,7 @@ const pokemons = [
   {
     id: 138,
     nome: 'Omanyte',
-    tipo: 'Pedra Água',
+    tipo: 'Pedra / Água',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -1117,7 +1352,7 @@ const pokemons = [
   {
     id: 139,
     nome: 'Omastar',
-    tipo: 'Pedra Água',
+    tipo: 'Pedra / Água',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -1135,7 +1370,7 @@ const pokemons = [
   {
     id: 140,
     nome: 'Kabuto',
-    tipo: 'Pedra Água',
+    tipo: 'Pedra / Água',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -1153,7 +1388,7 @@ const pokemons = [
   {
     id: 141,
     nome: 'Kabutops',
-    tipo: 'Pedra Água',
+    tipo: 'Pedra / Água',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -1171,7 +1406,7 @@ const pokemons = [
   {
     id: 142,
     nome: 'Aerodactyl',
-    tipo: 'Pedra Voador',
+    tipo: 'Pedra / Voador',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -1207,7 +1442,7 @@ const pokemons = [
   {
     id: 144,
     nome: 'Articuno',
-    tipo: 'Gelo Voador',
+    tipo: 'Gelo / Voador',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -1225,7 +1460,7 @@ const pokemons = [
   {
     id: 145,
     nome: 'Zapdos',
-    tipo: 'Elétrico Voador',
+    tipo: 'Elétrico / Voador',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -1243,7 +1478,7 @@ const pokemons = [
   {
     id: 146,
     nome: 'Moltres',
-    tipo: 'Fogo Voador',
+    tipo: 'Fogo / Voador',
     hp: 500,
     ataque: 600,
     defesa: 400,
@@ -1315,11 +1550,11 @@ const pokemons = [
     id: 150,
     nome: 'Mewtwo',
     tipo: 'Psíquico',
-    hp: 500,
-    ataque: 600,
-    defesa: 400,
-    velocidade: 400,
-    total: 1900,
+    hp: 700,
+    ataque: 700,
+    defesa: 600,
+    velocidade: 800,
+    total: 2800,
     habilidades: [
       {
         habilidade1: 'Confusão',
@@ -1333,11 +1568,11 @@ const pokemons = [
     id: 151,
     nome: 'Mew',
     tipo: 'Psíquico',
-    hp: 500,
+    hp: 600,
     ataque: 600,
-    defesa: 400,
-    velocidade: 400,
-    total: 1900,
+    defesa: 600,
+    velocidade: 600,
+    total: 2400,
     habilidades: [
       {
         habilidade1: 'Pound',
