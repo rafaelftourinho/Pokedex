@@ -28,7 +28,7 @@ p, span {
     text-shadow: 0 1px hsla(0, 0%, 0%, 0.3);
 }
 main {
-  height: 85%;
+  height: 580px;
   background: transparent;
 }
 .poke-card, .poke-list ul {
@@ -138,7 +138,6 @@ main {
 .card-bottom li:nth-child(5) .percent-progress {
     background: hsla(231, 100%, 30%, 0.8);
 }
-
 .card-bottom li:nth-child(6) .percent-progress {
     background: hsla(91, 85%, 43%, 0.9);
 }
