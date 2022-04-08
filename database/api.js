@@ -609,7 +609,6 @@ const pokemons = [
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png'
   },
-    
       {
     id: 111,
     nome: 'Rhyhorn',

@@ -40,7 +40,17 @@ const generateID = (id) => {
     if(id.toString().length == 3) return id;
     return id.toString().length == 2 ? `0${id}` : `00${id}`;
 }
+const changeWtKeyboard = move => {
+    const id = parseInt(document.querySelector('#poke-id').innerText.replace("#",""));
+    const actPokemon = pokemons.findIndex(poke => poke.id == id) + move;
+    pokemons[actPokemon] && changePokemon(pokemons[actPokemon]);
+}
 window.addEventListener('load',()=>{
     createList();
     changePokemon(pokemons[0]);
 })
+window.addEventListener("keydown", e => {
+    const key = e.code;
+    if(key == "ArrowUp") changeWtKeyboard(-1);
+    if(key == "ArrowDown") changeWtKeyboard(1);
+});
