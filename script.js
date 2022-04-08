@@ -1,4 +1,5 @@
 console.log(pokemons)
+
 const createList = () => {
    const listHtml = document.querySelector('.poke-list ul');
    pokemons.forEach(pokemon => {
