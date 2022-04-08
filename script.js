@@ -1,5 +1,10 @@
 console.log(pokemons)
 
+window.addEventListener("keydown", e => {
+    const key = e.code;
+    if(key == "ArrowUp") changeWtKeyboard(-1);
+    if(key == "ArrowDown") changeWtKeyboard(1);
+});
 const createList = () => {
    const listHtml = document.querySelector('.poke-list ul');
    pokemons.forEach(pokemon => {
@@ -24,7 +29,6 @@ const changePokemon = pokemon => {
 const selectPokemon = id => {
     document.querySelectorAll('.poke-list li').forEach(li => li.classList = '');
     document.getElementById(`${id}`).classList.add('selected');
-    window.scroll(0, 1000)
 }
 const updateStatus = pokemon => {
     const status = ['hp','ataque', 'defesa','velocidade']; let total = 0;
@@ -56,8 +60,3 @@ window.addEventListener('load',()=>{
     createList();
     changePokemon(pokemons[0]);
 })
-window.addEventListener("keydown", e => {
-    const key = e.code;
-    if(key == "ArrowUp") changeWtKeyboard(-1);
-    if(key == "ArrowDown") changeWtKeyboard(1);
-});
