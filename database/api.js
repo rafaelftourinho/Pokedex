@@ -1312,6 +1312,475 @@ const pokemons = [
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png',
   },
+    
+  {
+    id: 72,
+    nome: 'Tentacool',
+    tipo: 'Água / Venenoso',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Ácido',
+        habilidade2: 'Arma de Água',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png'
+  },
+
+  {
+    id: 73,
+    nome: 'Tentacruel',
+    tipo: 'Água / Venenoso',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Picada Venenosa',
+        habilidade2: 'Hidrobomba',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png'
+  },
+
+  {
+    id: 74,
+    nome: 'Geodude',
+    tipo: 'Pedra / Terrestre',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Investida',
+        habilidade2: 'Espiral de Defesa',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png'
+  },
+
+  {
+    id: 75,
+    nome: 'Graveler',
+    tipo: 'Pedra / Terrestre',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Atira Pedras',
+        habilidade2: 'Autodestruição',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png'
+  },
+
+  {
+    id: 76,
+    nome: 'Golem',
+    tipo: 'Pedra / Terrestre',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Terremoto',
+        habilidade2: 'Explosão',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png'
+  },
+
+  {
+    id: 77,
+    nome: 'Ponyta',
+    tipo: 'Fogo',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Brasa',
+        habilidade2: 'Ataque de Cauda',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png'
+  },
+
+  {
+    id: 78,
+    nome: 'Rapidash',
+    tipo: 'Fogo',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Roda de Fogo',
+        habilidade2: 'Desmantelar',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png'
+  },
+
+  {
+    id: 79,
+    nome: 'Slowpoke',
+    tipo: 'Água / Psíquico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Confusão',
+        habilidade2: 'Inabilitar',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png'
+  },
+
+  {
+    id: 80,
+    nome: 'Slowbro',
+    tipo: 'Água / Psíquico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Ataque Psíquico',
+        habilidade2: 'Arma de Água',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png'
+  },
+
+  {
+    id: 81,
+    nome: 'Magnemite',
+    tipo: 'Elétrico / Metálico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Explosão Sônica',
+        habilidade2: 'Onda Trovão',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png'
+  },
+
+  {
+    id: 82,
+    nome: 'Magneton',
+    tipo: 'Elétrico / Metálico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Investida',
+        habilidade2: 'Choque do Trovão',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png'
+  },
+
+  {
+    id: 83,
+    nome: "Farfetch'd",
+    tipo: 'Normal / Voador',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Bicada',
+        habilidade2: 'Talho',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png'
+  },
+
+  {
+    id: 84,
+    nome: 'Doduo',
+    tipo: 'Normal / Voador',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Bicada',
+        habilidade2: 'Ataque de Fúria',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png'
+  },
+
+  {
+    id: 85,
+    nome: 'Dodrio',
+    tipo: 'Normal / Voador',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Bicada Broca',
+        habilidade2: 'Tri Ataque',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png'
+  },
+
+  {
+    id: 86,
+    nome: 'Seel',
+    tipo: 'Água',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Cabeçada',
+        habilidade2: 'Descansar',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png'
+  },
+
+  {
+    id: 87,
+    nome: 'Dewgong',
+    tipo: 'Água / Gelo',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Raio Aurora',
+        habilidade2: 'Desmantelar',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png'
+  },
+
+  {
+    id: 88,
+    nome: 'Grimer',
+    tipo: 'Venenoso',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Pancada',
+        habilidade2: 'Gás Venenoso',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png'
+  },
+
+  {
+    id: 89,
+    nome: 'Muk',
+    tipo: 'Venenoso',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Lodo',
+        habilidade2: 'Armadura de Ácido',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png'
+  },
+
+  {
+    id: 90,
+    nome: 'Shellder',
+    tipo: 'Água',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Investida',
+        habilidade2: 'Retirada',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png'
+  },
+
+  {
+    id: 91,
+    nome: 'Cloyster',
+    tipo: 'Água / Gelo',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Raio Aurora',
+        habilidade2: 'Canhão de Espinhos',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png'
+  },
+
+  {
+    id: 92,
+    nome: 'Gastly',
+    tipo: 'Fantasma',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Lambida',
+        habilidade2: 'Raio de Confusão',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png'
+  },
+
+  {
+    id: 93,
+    nome: 'Haunter',
+    tipo: 'Fantasma',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Hipnose',
+        habilidade2: 'Comedor de Sonhos',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png'
+  },
+
+  {
+    id: 94,
+    nome: 'Gengar',
+    tipo: 'Fantasma',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Esfera de Escuridão',
+        habilidade2: 'Sombra da Noite',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png'
+  },
+
+  {
+    id: 95,
+    nome: 'Onix',
+    tipo: 'Pedra',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Investida',
+        habilidade2: 'Prender',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png'
+  },
+
+  {
+    id: 96,
+    nome: 'Drowzee',
+    tipo: 'Psíquico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Hipnose',
+        habilidade2: 'Confusão',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png'
+  },
+
+  {
+    id: 97,
+    nome: 'Hypno',
+    tipo: 'Psíquico',
+    hp: 500,
+    ataque: 600,
+    defesa: 400,
+    velocidade: 600,
+    total: 2100,
+    habilidades: [
+      {
+        habilidade1: 'Hipnose',
+        habilidade2: 'Comedor de Sonhos',
+      }
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png'
+
+  },
 
   {
     id: 98,
@@ -2242,7 +2711,7 @@ const pokemons = [
     total: 1900,
     habilidades: [
       {
-        habilidade1: 'Dança do dragão',
+        habilidade1: 'Dança do Dragão',
         habilidade2: 'Velocidade Extrema',
       },
     ],
@@ -2260,7 +2729,7 @@ const pokemons = [
     habilidades: [
       {
         habilidade1: 'Confusão',
-        habilidade2: 'Disable',
+        habilidade2: 'Inabilitar',
       },
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png',
@@ -2277,8 +2746,8 @@ const pokemons = [
     total: 2400,
     habilidades: [
       {
-        habilidade1: 'Pound',
-        habilidade2: 'Transform',
+        habilidade1: 'Pancada',
+        habilidade2: 'Transformação',
       },
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png',

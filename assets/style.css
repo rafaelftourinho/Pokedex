@@ -141,6 +141,11 @@ main {
   padding: 0 10px;
 }
 
+.selected {
+    transition: 0.5s;
+    background: linear-gradient(to bottom , rgb(109, 109, 109), rgb(153, 153, 153));
+}
+
 #total {
   margin: 20px 0;
   justify-content: center;
@@ -176,6 +181,26 @@ main {
 
 .card-bottom li:nth-child( 6 ) .percent-progress {
   background: hsla(91, 85%, 43%, 0.9);
+}
+
+.Grama {
+  background: radial-gradient(hsl(107, 93%, 30%), hsl(99, 95%, 67%));
+}
+
+.Fogo {
+  background: radial-gradient(hsl(7, 94%, 30%), hsl(5, 95%, 67%));
+}
+
+.Agua {
+  background: radial-gradient(hsl(205, 88%, 29%), hsl(208, 70%, 57%));
+}
+
+.Psiquico {
+  background: radial-gradient(hsl(53, 89%, 32%), hsl(53, 100%, 50%));
+}
+
+.Pedra {
+  background: radial-gradient(hsl(54, 95%, 17%), hsl(53, 66%, 30%));
 }
 
 .poke-list {
