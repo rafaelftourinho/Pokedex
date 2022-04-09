@@ -810,42 +810,6 @@ const pokemons = [
   },
 
   {
-    id: 45,
-    nome: 'Vileplume',
-    tipo: 'Grama / Venenoso',
-    hp: 270,
-    ataque: 290,
-    defesa: 290,
-    velocidade: 240,
-    total: 1090,
-    habilidades: [
-      {
-        habilidade1: 'Jardim de Flores Perfumadas',
-        habilidade2: 'Florescer Intenso',
-      },
-    ],
-    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png',
-  },
-
-  {
-    id: 45,
-    nome: 'Vileplume',
-    tipo: 'Grama / Venenoso',
-    hp: 270,
-    ataque: 290,
-    defesa: 290,
-    velocidade: 240,
-    total: 1090,
-    habilidades: [
-      {
-        habilidade1: 'Jardim de Flores Perfumadas',
-        habilidade2: 'Florescer Intenso',
-      },
-    ],
-    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png',
-  },
-
-  {
     id: 46,
     nome: 'Paras',
     tipo: 'Inseto / Grama',
