@@ -1,175 +1,210 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Wet+Paint&display=swap');
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    user-select: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  user-select: none;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
 :root {
-    --secundary-color:hsl(0, 0%, 24%); 
+
+  --secundary-color: hsl(0, 0%, 24%);
 }
+
 body {
-    width: 100%;
-    height: 100vh;
-    color: white;
-    font-family: 'Bebas Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  font-family: ' Bebas Neue', sans-serif;
 }
+
 .container {
-    height: 100%;
-    width: 100%;
-    background: rgb(75, 75, 75);
-    overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background: rgb(75, 75, 75);
+  overflow: hidden;
 }
-.container, main, .poke-info, .poke-type{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.container , main , .poke-info , .poke-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-p, span {
-    text-shadow: 0 1px hsla(0, 0%, 0%, 0.3);
+
+p , span {
+  text-shadow: 0 1px hsla(0, 0%, 0%, 0.3);
 }
+
 main {
   height: 580px;
   background: transparent;
 }
-.poke-card, .poke-list ul {
-    border-radius: 5px;
-    border: 1px solid hsl(0, 0%, 14%) ;
+
+.poke-card , .poke-list ul {
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 14%);
 }
+
 .poke-card {
-    background:var(--secundary-color);
-    margin-right: 20px;
-    width: 320px;
-    height: 100%;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-    font-size: .8rem;
+  background: var(--secundary-color);
+  margin-right: 20px;
+  width: 320px;
+  height: 100%;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  font-size: 0.8rem;
 }
+
 .card-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 50%;
-    width: 100%;
-    background: radial-gradient(hsl(39, 67%, 70%),hsl(39, 63%, 53%));
-    border-radius: 3px 3px 40px 40px;
-    padding: 20px;
-    font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  background: radial-gradient(hsl(39, 67%, 70%), hsl(39, 63%, 53%));
+  border-radius: 3px 3px 40px 40px;
+  padding: 20px;
+  font-size: 1.2rem;
 }
+
 .card-top h2 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
-#poke-image img {
-   width: 180px;
-   object-fit: cover;
-}
-@keyframes fade {
-    from {
-        transform: scale(0);
-    }
-    to {
-        transform: scale(1);
-    }
-}
-.poke-info {
-    flex-direction: column;
-}
-#poke-type {
-    width: 35%;
-    padding: 2px 0;
-    margin: 5px 0 10px 0;
-    background: hsla(0, 0%, 100%, 0.8);
-    color: hsla(0, 0%, 0%, 0.8);
-    border-radius: 4px;
-    text-align: center;
-    font-size: 0.8rem;
-    background: hsl(39, 30%, 42%);
-    color: white;
-}
-.card-bottom {
-    color: white;
-    padding: 20px;
-}
-#poke-name {
-    font-size: 1.8rem;
-    color: hsl(0, 0%, 81%);
-}
-.card-bottom h3 {
-    font-style: bold;
-    text-align: center;
-    font-size: 1.3rem;
-    margin-bottom: 5px;
-    padding: 2px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-}
-.card-bottom li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    height: 16px;
-    padding: 0 10px;
-}
-#total {
-    margin: 20px 0;
-    justify-content: center;
-}
-.percent-bar {
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 18px;
-    width: 85%;
-    height: 100%;
-}
-.percent-progress {
-    transition: 0.3s;
-    width: 0;
-    height: 100%;
-    padding-right: 10px;
-    border-radius: 6px;
-    text-align: right;
-}
-.card-bottom li:nth-child(3) .percent-progress {
-    background: hsla(130, 41%, 49%, 0.8);
-}
-.card-bottom li:nth-child(4) .percent-progress {
-    background: hsla(0, 100%, 30%, 0.8);
-}
-.card-bottom li:nth-child(5) .percent-progress {
-    background: hsla(231, 100%, 30%, 0.8);
-}
-.card-bottom li:nth-child(6) .percent-progress {
-    background: hsla(91, 85%, 43%, 0.9);
-}
-::-webkit-scrollbar {
-    width: 0;
-}
-.poke-list {
-    height: 100%;
-}
-.poke-list ul {
-    height: 100%;
-    width: 220px;
-    background: var(--secundary-color);
-    overflow: scroll;
-}
-.poke-list ul li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px 0 15px;
-    margin: 10px 0;
-    font-size: 1.2rem;
-}
-.selected {
-    background: linear-gradient(to bottom , rgb(109, 109, 109), rgb(153, 153, 153));
-}
-.poke-list ul li:hover {
-    transition: 0.5s;
-    background: hsla(0, 0%, 43%, 0.3);
-    transform: scale(1.1);
-}
+
 .poke-list img {
-    width: 70px;
-    object-fit: cover;
+  width: 70px;
+  object-fit: cover;
+}
+
+#poke-image img {
+  width: 180px;
+  object-fit: cover;
+}
+
+@keyframes fade {
+
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.poke-info {
+  flex-direction: column;
+}
+
+#poke-type {
+  width: 35%;
+  padding: 2px 0;
+  margin: 5px 0 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.8rem;
+  background: hsl(39, 30%, 42%);
+  color: white;
+}
+
+.card-bottom {
+  color: white;
+  padding: 20px;
+}
+
+#poke-name {
+  font-size: 1.8rem;
+  color: hsl(0, 0%, 81%);
+}
+
+.card-bottom h3 {
+  font-style: bold;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  padding: 2px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.card-bottom li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 16px;
+  padding: 0 10px;
+}
+
+#total {
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.percent-bar {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 18px;
+  width: 85%;
+  height: 100%;
+}
+
+.percent-progress {
+  transition: 0.3s;
+  width: 0;
+  height: 100%;
+  padding-right: 10px;
+  border-radius: 6px;
+  text-align: right;
+}
+
+.card-bottom li:nth-child( 3 ) .percent-progress {
+  background: hsla(130, 41%, 49%, 0.8);
+}
+
+.card-bottom li:nth-child( 4 ) .percent-progress {
+  background: hsla(0, 100%, 30%, 0.8);
+}
+
+.card-bottom li:nth-child( 5 ) .percent-progress {
+  background: hsla(231, 100%, 30%, 0.8);
+}
+
+.card-bottom li:nth-child( 6 ) .percent-progress {
+  background: hsla(91, 85%, 43%, 0.9);
+}
+
+.poke-list {
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.poke-list ul {
+  height: 100%;
+  width: 220px;
+  background: var(--secundary-color);
+  overflow: scroll;
+}
+
+.poke-list ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 15px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.selected {
+  background: linear-gradient(to bottom, rgb(109, 109, 109), rgb(153, 153, 153));
+}
+
+.poke-list ul li:hover {
+  transition: 0.5s;
+  background: hsla(0, 0%, 43%, 0.3);
+  transform: scale(1.1);
 }
