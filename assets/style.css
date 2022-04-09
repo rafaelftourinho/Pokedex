@@ -31,6 +31,10 @@ body {
   overflow: hidden;
 }
 
+#pokedex-img {
+  position: absolute;
+}
+
 .container , main , .poke-info , .poke-type {
   display: flex;
   align-items: center;
@@ -46,18 +50,50 @@ main {
   background: transparent;
 }
 
-.poke-card , .poke-list ul {
+.poke-card , .poke-list {
   border-radius: 5px;
   border: 1px solid hsl(0, 0%, 14%);
+  z-index: 10;
+  height: 90%;
 }
 
 .poke-card {
   background: var(--secundary-color);
   margin-right: 20px;
   width: 320px;
-  height: 100%;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
   font-size: 0.8rem;
+}
+
+.poke-list {
+  width: 220px;
+  padding: 2px 0;
+  background: var(--secundary-color);
+  scrollbar-width: none;
+}
+
+.poke-list ul {
+  height: 100%;
+  overflow: auto;
+}
+
+.poke-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 15px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.poke-list img {
+  width: 70px;
+  object-fit: cover;
+}
+
+.selected {
+  transition: 0.5s;
+  background: linear-gradient(to bottom, rgb(109, 109, 109), rgb(153, 153, 153));
 }
 
 .card-top {
@@ -73,13 +109,8 @@ main {
   font-size: 1.2rem;
 }
 
-.card-top h2 {
+#poke-id {
   font-size: 1.2rem;
-}
-
-.poke-list img {
-  width: 70px;
-  object-fit: cover;
 }
 
 #poke-image img {
@@ -102,15 +133,20 @@ main {
   flex-direction: column;
 }
 
-#poke-type {
-  width: 35%;
-  padding: 2px 0;
-  margin: 5px 0 10px;
-  border-radius: 4px;
+#poke-types {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.poke-type {
+  min-width: 30%;
+  width: auto;
+  padding: 2px 3px;
+  margin: 2% 5px;
+  border-radius: 2px;
   text-align: center;
   font-size: 0.8rem;
-  background: hsl(39, 30%, 42%);
-  color: white;
 }
 
 .card-bottom {
@@ -126,35 +162,34 @@ main {
 .card-bottom h3 {
   font-style: bold;
   text-align: center;
-  font-size: 1.3rem;
-  margin-bottom: 5px;
-  padding: 2px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  padding: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .card-bottom li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
-  height: 16px;
+  margin-bottom: 4px;
+  height: 14px;
   padding: 0 10px;
 }
 
-.selected {
+.poke-list li:hover {
   transition: 0.5s;
-  background: linear-gradient(to bottom, rgb(109, 109, 109), rgb(153, 153, 153));
+  background: hsla(0, 0%, 43%, 0.3);
 }
 
 #total {
-  margin: 20px 0;
+  margin: 8px 0;
   justify-content: center;
 }
 
 .percent-bar {
   background: rgba(255, 255, 255, 0.4);
   border-radius: 18px;
-  width: 85%;
+  width: 87%;
   height: 100%;
 }
 
@@ -184,31 +219,31 @@ main {
 }
 
 .Normal {
-  background: radial-gradient(circle, rgba(61,56,56,1) 6%, rgba(121,119,111,1) 44%, rgba(255,255,255,1) 100%);
+  background: radial-gradient(circle, rgba(61, 56, 56, 1) 6%, rgba(121, 119, 111, 1) 44%, white);
 }
 
 .Fogo {
-  background: radial-gradient(hsl(7, 94%, 30%), hsl(5, 95%, 67%));
+  background: radial-gradient(hsl(7, 95%, 24%), hsl(5, 95%, 67%));
 }
 
 .Agua {
-  background: radial-gradient(hsl(205, 88%, 29%), hsl(208, 70%, 57%));
+  background: radial-gradient(hsl(205, 88%, 26%), hsl(208, 70%, 57%));
 }
 
 .Eletrico {
-  background: radial-gradient(circle, rgba(240,244,102,1) 0%, rgba(254,199,13,1) 34%, rgba(227,232,13,1) 87%);
+  background: radial-gradient(circle, rgba(240, 244, 102, 1) 0%, rgba(254, 199, 13, 1) 34%, rgba(227,232,13,1) 87%);
 }
 
 .Grama {
-  background: radial-gradient(hsl(107, 93%, 30%), hsl(99, 95%, 67%));
+  background: radial-gradient(hsl(107, 94%, 25%), hsl(99, 90%, 72%));
 }
 
 .Gelo {
-  background: radial-gradient(circle, rgba(70,226,211,1) 6%, rgba(255,255,255,1) 34%, rgba(1,198,255,1) 87%);
+  background: radial-gradient(circle, rgba(70, 226, 211, 1) 6%, white 34%, rgba(1, 198, 255, 1) 87%);
 }
 
 .Lutador {
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(217,166,11,1) 32%, rgba(196,13,13,1) 79%);
+  background: radial-gradient(circle, white 0%, rgba(217, 166, 11, 1) 32%, rgba(196, 13, 13, 1) 79%);
 }
 
 .Venenoso {
@@ -224,7 +259,7 @@ main {
 }
 
 .Psiquico {
-  background: radial-gradient(hsl(53, 89%, 32%), hsl(53, 100%, 50%));
+  background: radial-gradient(hsl(53, 95%, 25%), hsl(53, 100%, 50%));
 }
 
 .Inseto {
@@ -232,7 +267,7 @@ main {
 }
 
 .Pedra {
-  background: radial-gradient(hsl(54, 95%, 17%), hsl(53, 66%, 30%));
+  background: radial-gradient(hsl(53, 97%, 14%), hsl(53, 66%, 31%));
 }
 
 .Fantasma {
@@ -245,31 +280,4 @@ main {
 
 .Fada {
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(244,135,232,1) 32%, rgba(215,33,211,1) 92%);
-}
-
-.poke-list {
-  height: 100%;
-  scrollbar-width: none;
-}
-
-.poke-list ul {
-  height: 100%;
-  width: 220px;
-  background: var(--secundary-color);
-  overflow: scroll;
-}
-
-.poke-list ul li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px 0 15px;
-  margin: 10px 0;
-  font-size: 1.2rem;
-}
-
-.poke-list ul li:hover {
-  transition: 0.5s;
-  background: hsla(0, 0%, 43%, 0.3);
-  transform: scale(1.1);
 }

@@ -3,7 +3,7 @@ const pokemons = [
   {
     id: 1,
     nome: 'Bulbasaur',
-    tipo: 'Grama / Veneno',
+    tipo: 'Grama / Venenoso',
     hp: 220,
     ataque: 240,
     defesa: 260,
@@ -21,7 +21,7 @@ const pokemons = [
   {
     id: 2,
     nome: 'Ivysauro',
-    tipo: 'Grama / Veneno',
+    tipo: 'Grama / Venenoso',
     hp: 280,
     ataque: 280,
     defesa: 300,
@@ -39,7 +39,7 @@ const pokemons = [
   {
     id: 3,
     nome: 'Venossauro',
-    tipo: 'Grama / Veneno',
+    tipo: 'Grama / Venenoso',
     hp: 320,
     ataque: 320,
     defesa: 350,
