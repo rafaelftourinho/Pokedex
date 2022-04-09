@@ -32,22 +32,29 @@ const generateID = (id) => {
 const cleanString = (string) => {
   const res = string.normalize('NFD').replace(/\p{Diacritic}/gu, '');
   
-  return res.split(' ')[0];
+  return res;
 };
 
-const upateCard = (type) => {
+const upateCard = (typeString) => {
   const cardHTML = document.querySelector('.card-top');
+  const typesHTMl = document.querySelector('#poke-types');
+  const types = typeString.split('/');
 
-  cardHTML.classList = `card-top ${type}`;
+  cardHTML.classList = `card-top ${cleanString(types[0])}`;
+  typesHTMl.innerHTML = '';
+
+  types.forEach((tp) => {
+    typesHTMl.innerHTML += `<p class="poke-type ${cleanString(tp)}">${tp}</p>`;
+  });
 };
 
 const updateStatus = (pokemon) => {
   const status = ['hp', 'ataque', 'defesa', 'velocidade']; let total = 0;
 
   status.forEach((stt) => {
-  const sttHTML = document.querySelector(`#${stt}`); const 
-  
-  barHTML = sttHTML.querySelector('.percent-progress');
+  const sttHTML = document.querySelector(`#${stt}`); 
+  const barHTML = sttHTML.querySelector('.percent-progress');
+
   barHTML.style.width = `${(pokemon[sttHTML.id] * 100) / 1000}%`;
   barHTML.innerText = pokemon[sttHTML.id];
   total += pokemon[sttHTML.id];
@@ -64,9 +71,8 @@ const changePokemon = (pokemon) => {
   addAnimation(pokeImage, 'fade', 0.4);
   changeTxt('#poke-id span', generateID(pokemon.id));
   changeTxt('#poke-name span', pokemon.nome);
-  changeTxt('#poke-type', pokemon.tipo);
   selectPokemon(pokemon.id);
-  upateCard(cleanString(pokemon.tipo));
+  upateCard(pokemon.tipo);
   updateStatus(pokemon);
 };
 
@@ -86,7 +92,6 @@ const createList = () => {
 
 const changeWtKeyboard = (move) => {
   const id = (document.querySelector('#poke-id').innerText.replace('#', ''));
-
   const actPokemon = pokemons.findIndex((poke) => poke.id === Number(id)) + move;
 
   return pokemons[actPokemon] && changePokemon(pokemons[actPokemon]);
