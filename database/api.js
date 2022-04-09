@@ -612,6 +612,708 @@ const pokemons = [
   },
 
   {
+    id: 35,
+    nome: 'Clefairy',
+    tipo: 'Fada',
+    hp: 280,
+    ataque: 220,
+    defesa: 200,
+    velocidade: 200,
+    total: 900,
+    habilidades: [
+      {
+        habilidade1: 'Pancada',
+        habilidade2: 'Tiro Mágico',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png',
+  },
+
+  {
+    id: 36,
+    nome: 'Clefable',
+    tipo: 'Fada',
+    hp: 320,
+    ataque: 260,
+    defesa: 230,
+    velocidade: 220,
+    total: 1030,
+    habilidades: [
+      {
+        habilidade1: 'Milagre Enluarado',
+        habilidade2: 'Tiro Mágico',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png',
+  },
+
+  {
+    id: 37,
+    nome: 'Vulpix',
+    tipo: 'Fire',
+    hp: 220,
+    ataque: 230,
+    defesa: 210,
+    velocidade: 240,
+    total: 900,
+    habilidades: [
+      {
+        habilidade1: 'Carvão Vivo',
+        habilidade2: 'Chute Poderoso',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png',
+  },
+
+  {
+    id: 38,
+    nome: 'Ninetales',
+    tipo: 'Fire',
+    hp: 290,
+    ataque: 310,
+    defesa: 250,
+    velocidade: 320,
+    total: 1170,
+    habilidades: [
+      {
+        habilidade1: 'Chamas Sobrenaturais',
+        habilidade2: 'Calda de Chamas',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png',
+  },
+
+  {
+    id: 39,
+    nome: 'Jigglypuff',
+    tipo: 'Normal / Fada',
+    hp: 290,
+    ataque: 210,
+    defesa: 220,
+    velocidade: 220,
+    total: 940,
+    habilidades: [
+      {
+        habilidade1: 'Pancada',
+        habilidade2: 'Vamos Botar pra Rolar',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png',
+  },
+
+  {
+    id: 40,
+    nome: 'Wigglytuff',
+    tipo: 'Normal / Fada',
+    hp: 420,
+    ataque: 250,
+    defesa: 250,
+    velocidade: 250,
+    total: 1170,
+    habilidades: [
+      {
+        habilidade1: 'Encontrar Tesouro',
+        habilidade2: 'Hiperpancada',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png',
+  },
+
+  {
+    id: 41,
+    nome: 'Zubat',
+    tipo: 'Venenoso / Voador',
+    hp: 220,
+    ataque: 220,
+    defesa: 210,
+    velocidade: 250,
+    total: 900,
+    habilidades: [
+      {
+        habilidade1: 'Esconde nas Sombras',
+        habilidade2: 'Mergulho Veloz',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png',
+  },
+
+  {
+    id: 42,
+    nome: 'Golbat',
+    tipo: 'Venenoso / Voador',
+    hp: 280,
+    ataque: 290,
+    defesa: 250,
+    velocidade: 330,
+    total: 1150,
+    habilidades: [
+      {
+        habilidade1: 'Compra Discreta',
+        habilidade2: 'Golpe de Ar',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png',
+  },
+
+  {
+    id: 43,
+    nome: 'Oddish',
+    tipo: 'Grama / Venenoso',
+    hp: 230,
+    ataque: 240,
+    defesa: 250,
+    velocidade: 210,
+    total: 930,
+    habilidades: [
+      {
+        habilidade1: 'Aroma Doce',
+        habilidade2: 'Pó Venenoso',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png',
+  },
+
+  {
+    id: 44,
+    nome: 'Gloom',
+    tipo: 'Grama / Venenoso',
+    hp: 250,
+    ataque: 270,
+    defesa: 270,
+    velocidade: 220,
+    total: 1010,
+    habilidades: [
+      {
+        habilidade1: 'Pó de Sono',
+        habilidade2: 'Aroma Fétido',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png',
+  },
+
+  {
+    id: 45,
+    nome: 'Vileplume',
+    tipo: 'Grama / Venenoso',
+    hp: 270,
+    ataque: 290,
+    defesa: 290,
+    velocidade: 240,
+    total: 1090,
+    habilidades: [
+      {
+        habilidade1: 'Jardim de Flores Perfumadas',
+        habilidade2: 'Florescer Intenso',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png',
+  },
+
+  {
+    id: 45,
+    nome: 'Vileplume',
+    tipo: 'Grama / Venenoso',
+    hp: 270,
+    ataque: 290,
+    defesa: 290,
+    velocidade: 240,
+    total: 1090,
+    habilidades: [
+      {
+        habilidade1: 'Jardim de Flores Perfumadas',
+        habilidade2: 'Florescer Intenso',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png',
+  },
+
+  {
+    id: 45,
+    nome: 'Vileplume',
+    tipo: 'Grama / Venenoso',
+    hp: 270,
+    ataque: 290,
+    defesa: 290,
+    velocidade: 240,
+    total: 1090,
+    habilidades: [
+      {
+        habilidade1: 'Jardim de Flores Perfumadas',
+        habilidade2: 'Florescer Intenso',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png',
+  },
+
+  {
+    id: 46,
+    nome: 'Paras',
+    tipo: 'Inseto / Grama',
+    hp: 230,
+    ataque: 240,
+    defesa: 240,
+    velocidade: 200,
+    total: 910,
+    habilidades: [
+      {
+        habilidade1: 'Talho',
+        habilidade2: 'Arranhão',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png',
+  },
+
+  {
+    id: 47,
+    nome: 'Parasect',
+    tipo: 'Inseto / Grama',
+    hp: 250,
+    ataque: 340,
+    defesa: 260,
+    velocidade: 220,
+    total: 1070,
+    habilidades: [
+      {
+        habilidade1: 'Colisão de Cogumelo',
+        habilidade2: 'Raio Solar',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png',
+  },
+
+  {
+    id: 48,
+    nome: 'Venonat',
+    tipo: 'Inseto / Venenoso',
+    hp: 220,
+    ataque: 240,
+    defesa: 230,
+    velocidade: 220,
+    total: 910,
+    habilidades: [
+      {
+        habilidade1: 'Baque',
+        habilidade2: 'Feixe Psíquico',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png',
+  },
+
+  {
+    id: 49,
+    nome: 'Venomoth',
+    tipo: 'Inseto / Venenoso',
+    hp: 280,
+    ataque: 290,
+    defesa: 250,
+    velocidade: 290,
+    total: 1110,
+    habilidades: [
+      {
+        habilidade1: 'Voo Agressivo',
+        habilidade2: 'Pó Venenoso',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png',
+  },
+
+  {
+    id: 50,
+    nome: 'Digglet',
+    tipo: 'Terrestre',
+    hp: 180,
+    ataque: 230,
+    defesa: 200,
+    velocidade: 260,
+    total: 870,
+    habilidades: [
+      {
+        habilidade1: 'Cavar',
+        habilidade2: 'Arranhão',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png',
+  },
+
+  {
+    id: 51,
+    nome: 'Dugtrio',
+    tipo: 'Terrestre',
+    hp: 240,
+    ataque: 260,
+    defesa: 230,
+    velocidade: 380,
+    total: 1110,
+    habilidades: [
+      {
+        habilidade1: 'Trio de Caras',
+        habilidade2: 'Bomba de Lamas',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png',
+  },
+
+  {
+    id: 52,
+    nome: 'Meowth',
+    tipo: 'Normal',
+    hp: 240,
+    ataque: 240,
+    defesa: 240,
+    velocidade: 280,
+    total: 1000,
+    habilidades: [
+      {
+        habilidade1: 'Dia do Pagamento',
+        habilidade2: 'Fingimento',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png',
+  },
+
+  {
+    id: 53,
+    nome: 'Persian',
+    tipo: 'Normal',
+    hp: 270,
+    ataque: 290,
+    defesa: 260,
+    velocidade: 320,
+    total: 1140,
+    habilidades: [
+      {
+        habilidade1: 'Dia do Pagamento',
+        habilidade2: 'Mordida',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png',
+  },
+
+  {
+    id: 54,
+    nome: 'Psyduck',
+    tipo: 'Água',
+    hp: 220,
+    ataque: 240,
+    defesa: 210,
+    velocidade: 240,
+    total: 910,
+    habilidades: [
+      {
+        habilidade1: 'Chuva Borrifante',
+        habilidade2: 'Arranhão',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png',
+  },
+
+  {
+    id: 55,
+    nome: 'Golduck',
+    tipo: 'Água',
+    hp: 270,
+    ataque: 310,
+    defesa: 270,
+    velocidade: 270,
+    total: 1120,
+    habilidades: [
+      {
+        habilidade1: 'Feixe Psíquico',
+        habilidade2: 'Surfar',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png',
+  },
+
+  {
+    id: 56,
+    nome: 'Mankey',
+    tipo: 'Lutador',
+    hp: 220,
+    ataque: 250,
+    defesa: 230,
+    velocidade: 250,
+    total: 950,
+    habilidades: [
+      {
+        habilidade1: 'Arranhão',
+        habilidade2: 'Punho Focalizado',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png',
+  },
+
+  {
+    id: 57,
+    nome: 'Primeape',
+    tipo: 'Lutador',
+    hp: 250,
+    ataque: 310,
+    defesa: 260,
+    velocidade: 300,
+    total: 1120,
+    habilidades: [
+      {
+        habilidade1: 'Soco Tenaz',
+        habilidade2: 'Destruir',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png',
+  },
+
+  {
+    id: 58,
+    nome: 'Growlithe',
+    tipo: 'Fogo',
+    hp: 230,
+    ataque: 260,
+    defesa: 220,
+    velocidade: 230,
+    total: 940,
+    habilidades: [
+      {
+        habilidade1: 'Aquecer',
+        habilidade2: 'Combustão',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png',
+  },
+
+  {
+    id: 59,
+    nome: 'Arcanine',
+    tipo: 'Fogo',
+    hp: 280,
+    ataque: 320,
+    defesa: 250,
+    velocidade: 280,
+    total: 1130,
+    habilidades: [
+      {
+        habilidade1: 'Garras de Fogo',
+        habilidade2: 'Golpe de Colisão de Fogo',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png',
+  },
+
+  {
+    id: 60,
+    nome: 'Poliwag',
+    tipo: 'Água',
+    hp: 220,
+    ataque: 220,
+    defesa: 220,
+    velocidade: 260,
+    total: 920,
+    habilidades: [
+      {
+        habilidade1: "Revolver d'água",
+        habilidade2: "Jato D'água",
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png',
+  },
+
+  {
+    id: 61,
+    nome: 'Poliwhirl',
+    tipo: 'Água',
+    hp: 240,
+    ataque: 240,
+    defesa: 240,
+    velocidade: 290,
+    total: 1010,
+    habilidades: [
+      {
+        habilidade1: "Tapa Duplo",
+        habilidade2: "Onda Borrifante",
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png',
+  },
+
+  {
+    id: 62,
+    nome: 'Poliwrath',
+    tipo: 'Água / Lutador',
+    hp: 290,
+    ataque: 300,
+    defesa: 280,
+    velocidade: 270,
+    total: 1140,
+    habilidades: [
+      {
+        habilidade1: "Soco Espiral Dividido",
+        habilidade2: "Tapa do Despertar",
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png',
+  },
+
+  {
+    id: 63,
+    nome: 'Abra',
+    tipo: 'Psíquico',
+    hp: 200,
+    ataque: 250,
+    defesa: 180,
+    velocidade: 250,
+    total: 880,
+    habilidades: [
+      {
+        habilidade1: "Teleporte",
+        habilidade2: "Rugir",
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png',
+  },
+
+  {
+    id: 64,
+    nome: 'Kadabra',
+    tipo: 'Psíquico',
+    hp: 220,
+    ataque: 290,
+    defesa: 200,
+    velocidade: 290,
+    total: 1000,
+    habilidades: [
+      {
+        habilidade1: 'Psíquico',
+        habilidade2: 'Raio Psíquico',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png',
+  },
+
+  {
+    id: 65,
+    nome: 'Alakazam',
+    tipo: 'Psíquico',
+    hp: 240,
+    ataque: 350,
+    defesa: 220,
+    velocidade: 350,
+    total: 1160,
+    habilidades: [
+      {
+        habilidade1: 'Colher Zen',
+        habilidade2: 'Comando Mental',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png',
+  },
+
+  {
+    id: 66,
+    nome: 'Machop',
+    tipo: 'Lutador',
+    hp: 240,
+    ataque: 250,
+    defesa: 220,
+    velocidade: 210,
+    total: 920,
+    habilidades: [
+      {
+        habilidade1: 'Rasteira',
+        habilidade2: 'Soco Firme',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png',
+  },
+
+  {
+    id: 67,
+    nome: 'Machoke',
+    tipo: 'Lutador',
+    hp: 260,
+    ataque: 270,
+    defesa: 240,
+    velocidade: 220,
+    total: 990,
+    habilidades: [
+      {
+        habilidade1: 'Rasteira',
+        habilidade2: 'Esmurrar',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png',
+  },
+
+  {
+    id: 68,
+    nome: 'Machamp',
+    tipo: 'Lutador',
+    hp: 290,
+    ataque: 320,
+    defesa: 260,
+    velocidade: 230,
+    total: 1100,
+    habilidades: [
+      {
+        habilidade1: 'Machocante',
+        habilidade2: 'Soco Dinamite',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png',
+  },
+
+  {
+    id: 69,
+    nome: 'Bellsprout',
+    tipo: 'Grama / Venenoso',
+    hp: 230,
+    ataque: 240,
+    defesa: 220,
+    velocidade: 230,
+    total: 920,
+    habilidades: [
+      {
+        habilidade1: 'Venochoque',
+        habilidade2: 'Chicote de Vinha',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png',
+  },
+
+  {
+    id: 70,
+    nome: 'Weepinbell',
+    tipo: 'Grama / Venenoso',
+    hp: 250,
+    ataque: 270,
+    defesa: 240,
+    velocidade: 250,
+    total: 1010,
+    habilidades: [
+      {
+        habilidade1: 'Mucosa Perigosa',
+        habilidade2: 'Chicote de Vinha',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png',
+  },
+
+  {
+    id: 71,
+    nome: 'Victreebel',
+    tipo: 'Grama / Venenoso',
+    hp: 270,
+    ataque: 310,
+    defesa: 250,
+    velocidade: 250,
+    total: 1080,
+    habilidades: [
+      {
+        habilidade1: 'Vinha de Pânico',
+        habilidade2: 'Raio Solar',
+      },
+    ],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png',
+  },
+
+  {
     id: 98,
     nome: 'Krabby',
     tipo: 'Água',
