@@ -1,5 +1,7 @@
 import pokemons from './database/api.js';
 
+console.log(pokemons);
+
 const changeTxt = (local, txt) => {
   document.querySelector(`${local}`).innerText = txt;
 };
@@ -12,12 +14,31 @@ const addAnimation = (local, animation, duration) => {
   setTimeout(() => { element.style.animation = ''; }, duration * 1000);
 };
 
+const selectPokemon = (id) => {
+  document.querySelectorAll('.poke-list li').forEach((poke) => {
+    const li = poke;
+    li.classList = '';
+  });
+  document.getElementById(`${id}`).classList.add('selected');
+};
+
 const generateID = (id) => {
   if (id.toString().length === 1) return `00${id}`;
-
   if (id.toString().length === 2) return `0${id}`;
 
   return id;
+};
+
+const cleanString = (string) => {
+  const res = string.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+  
+  return res.split(' ')[0];
+};
+
+const upateCard = (type) => {
+  const cardHTML = document.querySelector('.card-top');
+
+  cardHTML.classList = `card-top ${type}`;
 };
 
 const updateStatus = (pokemon) => {
@@ -25,7 +46,7 @@ const updateStatus = (pokemon) => {
 
   status.forEach((stt) => {
   const sttHTML = document.querySelector(`#${stt}`); const 
-
+  
   barHTML = sttHTML.querySelector('.percent-progress');
   barHTML.style.width = `${(pokemon[sttHTML.id] * 100) / 1000}%`;
   barHTML.innerText = pokemon[sttHTML.id];
@@ -44,6 +65,8 @@ const changePokemon = (pokemon) => {
   changeTxt('#poke-id span', generateID(pokemon.id));
   changeTxt('#poke-name span', pokemon.nome);
   changeTxt('#poke-type', pokemon.tipo);
+  selectPokemon(pokemon.id);
+  upateCard(cleanString(pokemon.tipo));
   updateStatus(pokemon);
 };
 
@@ -52,7 +75,7 @@ const createList = () => {
 
   pokemons.forEach((pokemon) => {
     const li = document.createElement('li');
-
+    li.id = (pokemon.id);
     li.innerHTML += `<img src="${pokemon.img}">`;
     li.innerHTML += `<p>${pokemon.nome}</p>`;
     listHtml.appendChild(li);
@@ -64,7 +87,7 @@ const createList = () => {
 const changeWtKeyboard = (move) => {
   const id = (document.querySelector('#poke-id').innerText.replace('#', ''));
 
-  const actPokemon = pokemons.findIndex((poke) => poke.id === id) + move;
+  const actPokemon = pokemons.findIndex((poke) => poke.id === Number(id)) + move;
 
   return pokemons[actPokemon] && changePokemon(pokemons[actPokemon]);
 };
@@ -77,7 +100,6 @@ window.onload = () => {
     const key = e.code;
 
     if (key === 'ArrowUp') changeWtKeyboard(-1);
-
     if (key === 'ArrowDown') changeWtKeyboard(1);
   }); 
 };
