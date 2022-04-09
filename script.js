@@ -63,7 +63,7 @@ const createList = () => {
 const changeWtKeyboard = (move) => {
   const id = (document.querySelector('#poke-id').innerText.replace('#', ''));
 
-  const actPokemon = pokemons.findIndex((poke) => poke.id === id) + move;
+  const actPokemon = pokemons.findIndex((poke) => poke.id === Number(id)) + move;
 
   return pokemons[actPokemon] && changePokemon(pokemons[actPokemon]);
 };
