@@ -14,7 +14,6 @@ const addAnimation = (local, animation, duration) => {
 
 const generateID = (id) => {
   if (id.toString().length === 1) return `00${id}`;
-
   if (id.toString().length === 2) return `0${id}`;
 
   return id;
@@ -25,7 +24,7 @@ const updateStatus = (pokemon) => {
 
   status.forEach((stt) => {
   const sttHTML = document.querySelector(`#${stt}`); const 
-
+  
   barHTML = sttHTML.querySelector('.percent-progress');
   barHTML.style.width = `${(pokemon[sttHTML.id] * 100) / 1000}%`;
   barHTML.innerText = pokemon[sttHTML.id];
@@ -77,7 +76,6 @@ window.onload = () => {
     const key = e.code;
 
     if (key === 'ArrowUp') changeWtKeyboard(-1);
-
     if (key === 'ArrowDown') changeWtKeyboard(1);
   }); 
 };
