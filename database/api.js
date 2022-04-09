@@ -2008,7 +2008,7 @@ const pokemons = [
     total: 1900,
     habilidades: [
       {
-        habilidade1: 'Dança do dragão',
+        habilidade1: 'Dança do Dragão',
         habilidade2: 'Velocidade Extrema',
       },
     ],
@@ -2026,7 +2026,7 @@ const pokemons = [
     habilidades: [
       {
         habilidade1: 'Confusão',
-        habilidade2: 'Disable',
+        habilidade2: 'Inabilitar',
       },
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png',
@@ -2043,8 +2043,8 @@ const pokemons = [
     total: 2400,
     habilidades: [
       {
-        habilidade1: 'Pound',
-        habilidade2: 'Transform',
+        habilidade1: 'Pancada',
+        habilidade2: 'Transformação',
       },
     ],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png',
