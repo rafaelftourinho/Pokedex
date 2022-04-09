@@ -142,8 +142,8 @@ main {
 }
 
 .selected {
-    transition: 0.5s;
-    background: linear-gradient(to bottom , rgb(109, 109, 109), rgb(153, 153, 153));
+  transition: 0.5s;
+  background: linear-gradient(to bottom, rgb(109, 109, 109), rgb(153, 153, 153));
 }
 
 #total {
@@ -183,8 +183,8 @@ main {
   background: hsla(91, 85%, 43%, 0.9);
 }
 
-.Grama {
-  background: radial-gradient(hsl(107, 93%, 30%), hsl(99, 95%, 67%));
+.Normal {
+  background: radial-gradient(white), (gray);
 }
 
 .Fogo {
@@ -195,12 +195,56 @@ main {
   background: radial-gradient(hsl(205, 88%, 29%), hsl(208, 70%, 57%));
 }
 
+.Eletrico {
+  background: radial-gradient(yellow), (orange);
+}
+
+.Grama {
+  background: radial-gradient(hsl(107, 93%, 30%), hsl(99, 95%, 67%));
+}
+
+.Gelo {
+  background: radial-gradient(hsl(208, 70%, 57%)), (hsla(231, 100%, 30%, 0.8));
+}
+
+.Lutador {
+  background: radial-gradient(red), (brown);
+}
+
+.Venenoso {
+  background: radial-gradient(purple), (black);
+}
+
+.Terrestre {
+  background: radial-gradient(orange), (black);
+}
+
+.Voador {
+  background: radial-gradient(blue), (white);
+}
+
 .Psiquico {
   background: radial-gradient(hsl(53, 89%, 32%), hsl(53, 100%, 50%));
 }
 
+.Inseto {
+  background: radial-gradient(green), (purple);
+}
+
 .Pedra {
   background: radial-gradient(hsl(54, 95%, 17%), hsl(53, 66%, 30%));
+}
+
+.Fantasma {
+  background: radial-gradient(black), (purple);
+}
+
+.Dragao {
+  background: radial-gradient(gold), (orangered);
+}
+
+.Fada {
+  background: radial-gradient(pink), (white);
 }
 
 .poke-list {
@@ -222,10 +266,6 @@ main {
   padding: 0 20px 0 15px;
   margin: 10px 0;
   font-size: 1.2rem;
-}
-
-.selected {
-  background: linear-gradient(to bottom, rgb(109, 109, 109), rgb(153, 153, 153));
 }
 
 .poke-list ul li:hover {
