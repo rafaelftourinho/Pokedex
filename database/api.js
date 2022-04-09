@@ -650,7 +650,7 @@ const pokemons = [
   {
     id: 37,
     nome: 'Vulpix',
-    tipo: 'Fire',
+    tipo: 'Fogo',
     hp: 220,
     ataque: 230,
     defesa: 210,
@@ -668,7 +668,7 @@ const pokemons = [
   {
     id: 38,
     nome: 'Ninetales',
-    tipo: 'Fire',
+    tipo: 'Fogo',
     hp: 290,
     ataque: 310,
     defesa: 250,
