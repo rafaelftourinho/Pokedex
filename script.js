@@ -29,11 +29,7 @@ const generateID = (id) => {
   return id;
 };
 
-const cleanString = (string) => {
-  const res = string.normalize('NFD').replace(/\p{Diacritic}/gu, '');
-  
-  return res;
-};
+const cleanString = (string) => string.normalize('NFD').replace(/\p{Diacritic}/gu, '');
 
 const upateCard = (typeString) => {
   const cardHTML = document.querySelector('.card-top');
