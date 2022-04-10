@@ -27,8 +27,8 @@ body {
 .container {
   height: 100%;
   width: 100%;
-  background: rgb(75, 75, 75);
   overflow: hidden;
+  background: linear-gradient(to bottom, rgb(104, 93, 93), rgb(65, 65, 65));
 }
 
 #pokedex-img {
@@ -46,20 +46,22 @@ p , span {
 }
 
 main {
+  box-sizing: content-box;
+  padding: 20px;
   height: 580px;
-  background: transparent;
+  border-radius: 10px;
 }
 
 .poke-card , .poke-list {
   border-radius: 5px;
-  border: 1px solid hsl(0, 0%, 14%);
   z-index: 10;
+  border: rgba(0, 0, 0, 0.5) 1px solid;
   height: 90%;
 }
 
 .poke-card {
   background: var(--secundary-color);
-  margin-right: 20px;
+  margin-right: 4px;
   width: 320px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
   font-size: 0.8rem;
@@ -202,19 +204,19 @@ main {
   text-align: right;
 }
 
-.card-bottom li:nth-child( 3 ) .percent-progress {
+.card-bottom li:nth-child( 2 ) .percent-progress {
   background: hsla(130, 41%, 49%, 0.8);
 }
 
-.card-bottom li:nth-child( 4 ) .percent-progress {
+.card-bottom li:nth-child( 3 ) .percent-progress {
   background: hsla(0, 100%, 30%, 0.8);
 }
 
-.card-bottom li:nth-child( 5 ) .percent-progress {
+.card-bottom li:nth-child( 4 ) .percent-progress {
   background: hsla(231, 100%, 30%, 0.8);
 }
 
-.card-bottom li:nth-child( 6 ) .percent-progress {
+.card-bottom li:nth-child( 5 ) .percent-progress {
   background: hsla(91, 85%, 43%, 0.9);
 }
 
