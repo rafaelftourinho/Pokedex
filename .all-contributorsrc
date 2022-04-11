@@ -42,6 +42,15 @@
         "ideas",
         "code"
       ]
+    },
+    {
+      "login": "rafaelftourinho",
+      "name": "Rafael França",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97207322?v=4",
+      "profile": "https://github.com/rafaelftourinho",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7

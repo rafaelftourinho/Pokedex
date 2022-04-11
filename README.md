@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p>
@@ -88,6 +88,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/wanlucas"><img src="https://avatars.githubusercontent.com/u/76530841?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wan Lucas</b></sub></a><br /><a href="#ideas-wanlucas" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/marlondlacerda/Pokedex/commits?author=wanlucas" title="Code">💻</a> <a href="#content-wanlucas" title="Content">🖋</a> <a href="#design-wanlucas" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/PedroHasseDev"><img src="https://avatars.githubusercontent.com/u/94567390?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pedro H. Niemczewski</b></sub></a><br /><a href="#ideas-PedroHasseDev" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/marlondlacerda/Pokedex/commits?author=PedroHasseDev" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/marlondlacerda"><img src="https://avatars.githubusercontent.com/u/83839044?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marlon Lacerda</b></sub></a><br /><a href="https://github.com/marlondlacerda/Pokedex/pulls?q=is%3Apr+reviewed-by%3Amarlondlacerda" title="Reviewed Pull Requests">👀</a> <a href="#ideas-marlondlacerda" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/marlondlacerda/Pokedex/commits?author=marlondlacerda" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/rafaelftourinho"><img src="https://avatars.githubusercontent.com/u/97207322?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rafael França</b></sub></a><br /><a href="#ideas-rafaelftourinho" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
