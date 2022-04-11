@@ -323,7 +323,7 @@ p , span {
 }
 
 .Terrestre {
-  background: radial-gradient(circle, hsl(44, 52%, 40%) 7%, hsl(48, 52%, 51%) 67%);
+  background: radial-gradient(circle, rgba(73,73,73,1) 0%, rgba(164,125,32,1) 100%);
 }
 
 .Voador {
