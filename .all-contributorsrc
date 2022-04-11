@@ -21,6 +21,15 @@
         "content",
         "design"
       ]
+    },
+    {
+      "login": "PedroHasseDev",
+      "name": "Pedro H. Niemczewski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94567390?v=4",
+      "profile": "https://github.com/PedroHasseDev",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7

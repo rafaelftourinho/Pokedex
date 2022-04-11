@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p>
@@ -86,6 +86,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/wanlucas"><img src="https://avatars.githubusercontent.com/u/76530841?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wan Lucas</b></sub></a><br /><a href="#ideas-wanlucas" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/marlondlacerda/Pokedex/commits?author=wanlucas" title="Code">💻</a> <a href="#content-wanlucas" title="Content">🖋</a> <a href="#design-wanlucas" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/PedroHasseDev"><img src="https://avatars.githubusercontent.com/u/94567390?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pedro H. Niemczewski</b></sub></a><br /><a href="#ideas-PedroHasseDev" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
