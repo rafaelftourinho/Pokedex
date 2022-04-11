@@ -1,7 +1,3 @@
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 <p>
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marlondlacerda/pokedex?color=6E40C9&style=flat-square">
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/marlondlacerda/pokedex?color=6E40C9&style=flat-square">
@@ -9,6 +5,10 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/marlondlacerda/pokedex?color=6E40C9&style=flat-square">
   </a>
 </p>
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <img align="right" src="header.png" width="50%" alt="Pokedex">
 
