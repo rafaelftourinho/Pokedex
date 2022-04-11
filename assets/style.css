@@ -291,7 +291,7 @@ p , span {
 }
 
 .Normal {
-  background: radial-gradient(circle, hsl(0, 1%, 36%) 27%, hsl(295, 73%, 48%) 100%);
+  background: radial-gradient(circle, rgba(218,178,212,1) 0%, rgba(209,129,195,1) 100%);
 }
 
 .Fogo {
@@ -303,7 +303,7 @@ p , span {
 }
 
 .Eletrico {
-  background: radial-gradient(circle, hsl(60, 82%, 64%) 7%, hsl(48, 67%, 60%) 67%);
+  background: radial-gradient(circle, rgba(139,135,135,1) 0%, rgba(238,203,22,1) 100%);
 }
 
 .Grama {
@@ -311,7 +311,7 @@ p , span {
 }
 
 .Gelo {
-  background: radial-gradient(circle, hsl(188, 82%, 64%) 7%, hsl(225, 89%, 66%) 67%);
+  background: radial-gradient(circle, rgba(111,211,217,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .Lutador {
@@ -335,7 +335,7 @@ p , span {
 }
 
 .Inseto {
-  background: radial-gradient(circle, hsl(128, 62%, 62%) 4%, hsl(290, 68%, 48%) 100%);
+  background: radial-gradient(circle, rgba(182,182,182,1) 0%, rgba(100,186,69,1) 100%);
 }
 
 .Pedra {
