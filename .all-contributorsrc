@@ -11,7 +11,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/83839044?v=4",
       "profile": "https://github.com/marlondlacerda",
       "contributions": [
-        "code"
+        "code",
+        "review",
+        "infra",
+        "ideas",
+        "content",
+        "design"
       ]
     }
   ],
