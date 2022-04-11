@@ -85,7 +85,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/wanlucas"><img src="https://avatars.githubusercontent.com/u/76530841?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wan Lucas</b></sub></a><br /><a href="#ideas-wanlucas" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/marlondlacerda/Pokedex/commits?author=wanlucas" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/wanlucas"><img src="https://avatars.githubusercontent.com/u/76530841?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wan Lucas</b></sub></a><br /><a href="#ideas-wanlucas" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/marlondlacerda/Pokedex/commits?author=wanlucas" title="Code">💻</a> <a href="#content-wanlucas" title="Content">🖋</a></td>
   </tr>
 </table>
 
