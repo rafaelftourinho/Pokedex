@@ -1,17 +1,14 @@
-<p>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+<p>
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marlondlacerda/pokedex?color=6E40C9&style=flat-square">
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/marlondlacerda/pokedex?color=6E40C9&style=flat-square">
   <a href="https://github.com/marlondlacerda/pokedex/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/marlondlacerda/pokedex?color=6E40C9&style=flat-square">
   </a>
 </p>
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <img align="right" src="header.png" width="50%" alt="Pokedex">
 
@@ -88,7 +85,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/wanlucas"><img src="https://avatars.githubusercontent.com/u/76530841?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wan Lucas</b></sub></a><br /><a href="#ideas-wanlucas" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/wanlucas"><img src="https://avatars.githubusercontent.com/u/76530841?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wan Lucas</b></sub></a><br /><a href="#ideas-wanlucas" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/marlondlacerda/Pokedex/commits?author=wanlucas" title="Code">💻</a></td>
   </tr>
 </table>
 
