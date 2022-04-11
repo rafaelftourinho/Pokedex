@@ -65,11 +65,18 @@ body , .pokedex , .display , .screen , .poke-info , .poke-type {
 }
 
 .point {
-  background: hsl(0, 97%, 43%);
+  background: hsl(0, 100%, 26%);
   border: 1px solid black;
   width: 14px;
   height: 14px;
   border-radius: 50%;
+}
+
+@keyframes action-alert {
+
+  from {
+    filter: brightness(5);
+  }
 }
 
 .display-bottom .point {
@@ -268,7 +275,7 @@ p , span {
   height: 100%;
   padding-right: 6px;
   border-radius: 16px;
-  border-right: 3px solid hsla(0, 0%, 100%, 0.8);
+  border-right: 1px solid hsla(0, 0%, 100%, 0.8);
 }
 
 .card-bottom li:nth-child( 2 ) .percent-progress {
