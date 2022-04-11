@@ -22,53 +22,108 @@ body {
   height: 100vh;
   color: white;
   font-family: ' Bebas Neue', sans-serif;
+  background: black;
 }
 
-.container {
-  height: 100%;
+body , .pokedex , .display , .screen , .poke-info , .poke-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokedex {
   width: 100%;
+  height: 100%;
   overflow: hidden;
-  background: linear-gradient(to bottom, white, black);
+}
+
+.display {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 650px;
+  height: 600px;
+  padding: 10px;
+  background: hsl(0, 0%, 76%);
+  border: 3px solid hsla(0, 0%, 0%, 0.8);
+  border-radius: 8px 8px 8px 8%;
+}
+
+.display-header , .display-bottom , .points , .lines {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display-header {
+  height: 5%;
+  width: 10%;
+}
+
+.display-bottom {
+  height: 5%;
+  width: 90%;
+}
+
+.point {
+  background: hsl(0, 97%, 43%);
+  border: 1px solid black;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.display-bottom .point {
+  width: 22px;
+  height: 22px;
+}
+
+.lines {
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 25px;
+  height: 27px;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background: black;
 }
 
 #pokedex-img {
   position: absolute;
 }
 
-.container , main , .poke-info , .poke-type {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 p , span {
   text-shadow: 0 1px hsla(0, 0%, 0%, 0.3);
 }
 
-main {
-  box-sizing: content-box;
-  padding: 20px;
-  height: 580px;
-  border-radius: 10px;
+.screen {
+  justify-content: space-between;
+  width: 90%;
+  height: 88%;
+  border-radius: 5px;
+  padding: 15px;
+  background: black;
+  opacity: 0.95;
 }
 
 .poke-card , .poke-list {
   border-radius: 5px;
   z-index: 10;
-  border: rgba(0, 0, 0, 0.5) 1px solid;
-  height: 90%;
+  height: 100%;
 }
 
 .poke-card {
   background: var(--secundary-color);
-  margin-right: 4px;
-  width: 320px;
+  width: 60%;
+  margin-right: 15px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
   font-size: 0.8rem;
 }
 
 .poke-list {
-  width: 220px;
+  width: 40%;
   padding: 2px 0;
   background: var(--secundary-color);
   scrollbar-width: none;
@@ -131,8 +186,15 @@ main {
   }
 }
 
+.card-bottom {
+  height: 50%;
+  color: white;
+  padding: 2%;
+}
+
 .poke-info {
   flex-direction: column;
+  height: 35%;
 }
 
 #poke-types {
@@ -151,14 +213,16 @@ main {
   font-size: 0.8rem;
 }
 
-.card-bottom {
-  color: white;
-  padding: 20px;
-}
-
 #poke-name {
   font-size: 1.8rem;
   color: hsl(0, 0%, 81%);
+}
+
+.atributes-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 65%;
 }
 
 .card-bottom h3 {
@@ -166,7 +230,7 @@ main {
   text-align: center;
   font-size: 1rem;
   padding: 4px;
-  margin: 10px 0;
+  margin: 3% 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -174,8 +238,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 4px;
-  height: 14px;
+  height: 10%;
   padding: 0 10px;
 }
 
@@ -185,7 +248,6 @@ main {
 }
 
 #total {
-  margin: 8px 0;
   justify-content: center;
 }
 
@@ -194,15 +256,19 @@ main {
   border-radius: 18px;
   width: 87%;
   height: 100%;
+  overflow: hidden;
 }
 
 .percent-progress {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   transition: 0.3s;
   width: 0;
   height: 100%;
-  padding-right: 10px;
-  border-radius: 6px;
-  text-align: right;
+  padding-right: 6px;
+  border-radius: 16px;
+  border-right: 3px solid hsla(0, 0%, 100%, 0.8);
 }
 
 .card-bottom li:nth-child( 2 ) .percent-progress {
@@ -222,7 +288,7 @@ main {
 }
 
 .Normal {
-  background: radial-gradient(circle, rgba(93,91,91,1) 27%, rgba(200,33,214,1) 100%);
+  background: radial-gradient(circle, hsl(0, 1%, 36%) 27%, hsl(295, 73%, 48%) 100%);
 }
 
 .Fogo {
@@ -234,7 +300,7 @@ main {
 }
 
 .Eletrico {
-  background: radial-gradient(circle, rgba(237,238,88,1) 7%, rgba(221,194,84,1) 67%);
+  background: radial-gradient(circle, hsl(60, 82%, 64%) 7%, hsl(48, 67%, 60%) 67%);
 }
 
 .Grama {
@@ -242,49 +308,49 @@ main {
 }
 
 .Gelo {
-  background: radial-gradient(circle, rgba(88,217,238,1) 7%, rgba(93,130,246,1) 67%);
+  background: radial-gradient(circle, hsl(188, 82%, 64%) 7%, hsl(225, 89%, 66%) 67%);
 }
 
 .Lutador {
-  background: radial-gradient(circle, rgba(129,90,32,1) 18%, rgba(222,16,16,1) 73%);
+  background: radial-gradient(circle, hsl(36, 60%, 32%) 18%, hsl(0, 87%, 47%) 73%);
 }
 
 .Venenoso {
-  background: radial-gradient(circle, rgba(83,83,83,1) 0%, rgba(133,14,244,1) 44%);
+  background: radial-gradient(circle, hsl(0, 0%, 33%) 0%, hsl(271, 91%, 51%) 44%);
 }
 
 .Terrestre {
-  background: radial-gradient(circle, rgba(156,127,49,1) 7%, rgba(195,169,63,1) 67%);
+  background: radial-gradient(circle, hsl(44, 52%, 40%) 7%, hsl(48, 52%, 51%) 67%);
 }
 
 .Voador {
-  background: radial-gradient(circle, rgba(184,184,184,1) 0%, rgba(94,211,233,1) 44%);
+  background: radial-gradient(circle, hsl(0, 0%, 72%) 0%, hsl(189, 76%, 64%) 44%);
 }
 
 .Psiquico {
-  background: radial-gradient(circle, rgba(184,184,184,1) 0%, rgba(181,101,255,1) 44%);
+  background: radial-gradient(circle, hsl(0, 0%, 72%) 0%, hsl(271, 100%, 70%) 44%);
 }
 
 .Inseto {
-  background: radial-gradient(circle, rgba(99,218,115,1) 4%, rgba(180,40,207,1) 100%);
+  background: radial-gradient(circle, hsl(128, 62%, 62%) 4%, hsl(290, 68%, 48%) 100%);
 }
 
 .Pedra {
-  background: radial-gradient(circle, rgba(136,132,123,1) 4%, rgba(73,67,74,1) 100%);
+  background: radial-gradient(circle, hsl(42, 5%, 51%) 4%, hsl(291, 5%, 28%) 100%);
 }
 
 .Fantasma {
-  background: radial-gradient(circle, rgba(36,34,34,1) 0%, rgba(104,24,215,1) 100%);
+  background: radial-gradient(circle, hsl(0, 3%, 14%) 0%, hsl(265, 80%, 47%) 100%);
 }
 
 .Dragao {
-  background: radial-gradient(circle, rgba(166,185,11,1) 0%, rgba(170,70,33,1) 100%);
+  background: radial-gradient(circle, hsl(67, 89%, 38%) 0%, hsl(16, 67%, 40%) 100%);
 }
 
 .Metalico {
-  background: radial-gradient(circle, rgba(182,182,182,1) 0%, rgba(135,135,135,1) 100%);
+  background: radial-gradient(circle, hsl(0, 0%, 71%) 0%, hsl(0, 0%, 53%) 100%);
 }
 
 .Fada {
-  background: radial-gradient(circle, rgba(190,190,190,1) 0%, rgba(215,87,226,1) 100%);
+  background: radial-gradient(circle, white, hsl(295, 71%, 61%) 100%);
 }
