@@ -1,8 +1,8 @@
 <p>
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marlondlacerda/pokedex?color=6E40C9&style=flat-square">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/marlondlacerda/pokedex?color=6E40C9&style=flat-square">
-  <a href="https://github.com/marlondlacerda/pokedex/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/marlondlacerda/pokedex?color=6E40C9&style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rafaelftourinho/Pokedex?color=6E40C9&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/rafaelftourinho/Pokedex?color=6E40C9&style=flat-square">
+  <a href="https://github.com/rafaelftourinho/Pokedex/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelftourinho/Pokedex?color=6E40C9&style=flat-square">
   </a>
 </p>
 
