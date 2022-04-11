@@ -275,7 +275,7 @@ p , span {
   height: 100%;
   padding-right: 6px;
   border-radius: 16px;
-  border-right: 3px solid hsla(0, 0%, 100%, 0.8);
+  border-right: 1px solid hsla(0, 0%, 100%, 0.8);
 }
 
 .card-bottom li:nth-child( 2 ) .percent-progress {
