@@ -1,0 +1,67 @@
+{
+  "projectName": "Pokedex",
+  "projectOwner": "marlondlacerda",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "login": "PedroHasseDev",
+      "name": "Pedro H. Niemczewski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94567390?v=4",
+      "profile": "https://github.com/PedroHasseDev",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    },
+    {
+      "login": "marlondlacerda",
+      "name": "Marlon Lacerda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83839044?v=4",
+      "profile": "https://github.com/marlondlacerda",
+      "contributions": [
+        "review",
+        "ideas",
+        "code"
+      ]
+    },
+    {
+      "login": "rafaelftourinho",
+      "name": "Rafael França",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97207322?v=4",
+      "profile": "https://github.com/rafaelftourinho",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "wanlucas",
+      "name": "Wan Lucas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76530841?v=4",
+      "profile": "https://github.com/wanlucas",
+      "contributions": [
+        "ideas",
+        "code",
+        "content",
+        "design"
+      ]
+    },
+    {
+      "login": "luisArthurRodriguesDaSilva",
+      "name": "Luis Arthur Rodrigues da Silva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66787949?v=4",
+      "profile": "https://github.com/luisArthurRodriguesDaSilva",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
