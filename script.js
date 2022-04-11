@@ -61,10 +61,12 @@ const updateStatus = (pokemon) => {
 
 const changePokemon = (pokemon) => {
   const pokeImage = document.querySelector('#poke-image');
+  const actionLed = document.querySelector('#action-led');
 
   pokeImage.innerHTML = `<img src="${pokemon.img}" alt="${pokemon.nome}">`;
 
   addAnimation(pokeImage, 'fade', 0.4);
+  addAnimation(actionLed, 'action-alert', 0.2);
   changeTxt('#poke-id span', generateID(pokemon.id));
   changeTxt('#poke-name span', pokemon.nome);
   selectPokemon(pokemon.id);
