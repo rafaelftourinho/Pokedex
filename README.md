@@ -10,7 +10,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-<img align="right" src="header.png" width="50%" alt="Pokedex">
+<img align="right" src="./images/header.png" width="50%" alt="Pokedex">
 
 ## Tópicos 
 
@@ -38,7 +38,7 @@ Os dados são cosumidos de uma api própria desenvolvida por nós.
 <br>
 
 <p align="center">
-  <img src="preview.png" alt="Página inicial" width="50%" />
+  <img src="./images/preview.png" alt="Página inicial" width="50%" />
 
 </p>
 
@@ -79,7 +79,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para m
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people 🥂
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
