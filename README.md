@@ -16,7 +16,7 @@
 
 [Preview](#preview)
 
-[Sobre o Trybe Recipes](#sobre-o-trybe-recipes)
+[Sobre o Trybe Recipes](#sobre-o-pokedex)
 
 [Tecnologias](#tecnologias)
 
@@ -28,7 +28,7 @@
 
 <a title="Pokedex" href="https://marlondlacerda.github.io/Pokedex/" >Clique aqui </a> para ter acesso a um  preview do App. <br>
 
-## Sobre o Trybe Recipes 
+## Sobre o Pokedex
 
 O Pokedex é um dos projetos desenvolvido em grupo junto com o [Wan](https://github.com/wanlucas), [Pedro H. Niemczewski](https://github.com/PedroHasseDev), [Rafael França](https://github.com/rafaelftourinho), [Luis Arthur](https://github.com/luisArthurRodriguesDaSilva) & [Marlon Lacerda](https://github.com/marlondlacerda). Foram 10 dias de projeto, que envolveu reuniões diárias, utilização de metodologias ágeis e também desenvolvimento em pair programming.
 
