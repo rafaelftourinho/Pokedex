@@ -16,7 +16,7 @@
 
 [Preview](#preview)
 
-[Sobre o Trybe Recipes](#sobre-o-pokedex)
+[Sobre o Pekedex](#sobre-o-pokedex)
 
 [Tecnologias](#tecnologias)
 
