@@ -11,18 +11,6 @@
   "commitConvention": "eslint",
   "contributors": [
     {
-      "login": "wanlucas",
-      "name": "Wan Lucas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76530841?v=4",
-      "profile": "https://github.com/wanlucas",
-      "contributions": [
-        "ideas",
-        "code",
-        "content",
-        "design"
-      ]
-    },
-    {
       "login": "PedroHasseDev",
       "name": "Pedro H. Niemczewski",
       "avatar_url": "https://avatars.githubusercontent.com/u/94567390?v=4",
@@ -49,8 +37,19 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/97207322?v=4",
       "profile": "https://github.com/rafaelftourinho",
       "contributions": [
-        "ideas",
         "code"
+      ]
+    },
+    {
+      "login": "wanlucas",
+      "name": "Wan Lucas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76530841?v=4",
+      "profile": "https://github.com/wanlucas",
+      "contributions": [
+        "ideas",
+        "code",
+        "content",
+        "design"
       ]
     }
   ],
