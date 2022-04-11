@@ -26,7 +26,7 @@
 
 ## Preview
 
-<a title="Pokedex" href="https://marlondlacerda.github.io/Pokedex/" >Clique aqui </a> para ter acesso a um  preview do App. <br>
+<a title="Pokedex" href="https://rafaelftourinho.github.io/pokedex/" >Clique aqui </a> para ter acesso a um  preview do App. <br>
 
 ## Sobre o Pokedex
 
