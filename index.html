@@ -8,51 +8,72 @@
     <title>pokedéx</title>
 </head>
 <body>
-  <div class="container">
-    <main>
-      <section class="poke-card">
-        <div class="card-top">
-            <h2 id="poke-id">#<span></span></h2>
-            <div id="poke-image"></div>
-        </div>  
-        <div class="card-bottom">
-          <div class="poke-info">
-            <h1 id="poke-name"><span></span></h1>
-            <div id="poke-types"></div>
-          </div>
-          <ul class="atributes-list">
-            <h3>status</h3> 
-            <li id="hp"> 
-              <span>HP</span>
-              <div class="percent-bar">
-                <div class="percent-progress"></div>
+  <div class="pokedex">
+    <div class="display">
+      <div class="display-header">
+          <div class="point"></div>
+          <div class="point"></div>
+      </div>
+      <div class="screen">
+          <section class="poke-card">
+            <div class="card-top">
+                <h2 id="poke-id">#<span></span></h2>
+                <div id="poke-image"></div>
+            </div>  
+            <div class="card-bottom">
+              <div class="poke-info">
+                <h1 id="poke-name"><span></span></h1>
+                <div id="poke-types"></div>
               </div>
-            </li>
-            <li id="ataque">
-              <span>ATK</span>
-              <div class="percent-bar">
-                <div class="percent-progress"></div>
-              </div>
-            </li>
-            <li id="defesa">
-              <span>DEF</span>
-                <div class="percent-bar">
-                  <div class="percent-progress"></div>
-                </div>
-            </li>
-            <li id="velocidade">
-              <span>VEL</span>
-              <div class="percent-bar">
-                <div class="percent-progress"></div>
-              </div> 
-            </li>
-            <li id="total">TOTAL:<span></span></li>
-          </ul>
-          <ul class="skills"></ul>
+              <ul class="atributes-list">
+                <h3>status</h3> 
+                <li id="hp"> 
+                  <span>HP</span>
+                  <div class="percent-bar">
+                   <div class="percent-progress"></div>
+                  </div>
+                </li>
+                <li id="ataque">
+                  <span>ATK</span>
+                  <div class="percent-bar">
+                    <div class="percent-progress"></div>
+                  </div>
+                </li>
+                <li id="defesa">
+                  <span>DEF</span>
+                    <div class="percent-bar">
+                      <div class="percent-progress"></div>
+                    </div>
+                </li>
+                <li id="velocidade">
+                  <span>VEL</span>
+                  <div class="percent-bar">
+                    <div class="percent-progress"></div>
+                  </div> 
+                </li>
+                <li id="total">TOTAL:<span></span></li>
+              </ul>
+              <ul class="skills"></ul>
+            </div>
+        
+         
+         
+         
+          </section>
+          <section class="poke-list"><ul></ul></section>
+  
+      </div>
+      <div class="display-bottom">
+        <div class="point"></div>
+        <div class="lines">
+           <div class="line"></div>
+           <div class="line"></div>
+           <div class="line"></div>
+           <div class="line"></div>
+           <div class="line"></div>
         </div>
-      </section>
-      <section class="poke-list"><ul></ul></section>
-    </main>
+      </div>
+    </div>
   </div>
 </body>
 <script type="module" src="script.js" type="module"></script>
