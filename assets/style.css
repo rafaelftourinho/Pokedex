@@ -222,7 +222,7 @@ main {
 }
 
 .Normal {
-  background: radial-gradient(circle, rgba(93,91,91,1) 27%, rgba(200,33,214,1) 100%);
+  background: radial-gradient(circle, hsl(0, 1%, 36%) 27%, hsl(295, 73%, 48%) 100%);
 }
 
 .Fogo {
@@ -234,7 +234,7 @@ main {
 }
 
 .Eletrico {
-  background: radial-gradient(circle, rgba(237,238,88,1) 7%, rgba(221,194,84,1) 67%);
+  background: radial-gradient(circle, hsl(60, 82%, 64%) 7%, hsl(48, 67%, 60%) 67%);
 }
 
 .Grama {
@@ -242,49 +242,49 @@ main {
 }
 
 .Gelo {
-  background: radial-gradient(circle, rgba(88,217,238,1) 7%, rgba(93,130,246,1) 67%);
+  background: radial-gradient(circle, hsl(188, 82%, 64%) 7%, hsl(225, 89%, 66%) 67%);
 }
 
 .Lutador {
-  background: radial-gradient(circle, rgba(129,90,32,1) 18%, rgba(222,16,16,1) 73%);
+  background: radial-gradient(circle, hsl(36, 60%, 32%) 18%, hsl(0, 87%, 47%) 73%);
 }
 
 .Venenoso {
-  background: radial-gradient(circle, rgba(83,83,83,1) 0%, rgba(133,14,244,1) 44%);
+  background: radial-gradient(circle, hsl(0, 0%, 33%) 0%, hsl(271, 91%, 51%) 44%);
 }
 
 .Terrestre {
-  background: radial-gradient(circle, rgba(156,127,49,1) 7%, rgba(195,169,63,1) 67%);
+  background: radial-gradient(circle, hsl(44, 52%, 40%) 7%, hsl(48, 52%, 51%) 67%);
 }
 
 .Voador {
-  background: radial-gradient(circle, rgba(184,184,184,1) 0%, rgba(94,211,233,1) 44%);
+  background: radial-gradient(circle, hsl(0, 0%, 72%) 0%, hsl(189, 76%, 64%) 44%);
 }
 
 .Psiquico {
-  background: radial-gradient(circle, rgba(184,184,184,1) 0%, rgba(181,101,255,1) 44%);
+  background: radial-gradient(circle, hsl(0, 0%, 72%) 0%, hsl(271, 100%, 70%) 44%);
 }
 
 .Inseto {
-  background: radial-gradient(circle, rgba(99,218,115,1) 4%, rgba(180,40,207,1) 100%);
+  background: radial-gradient(circle, hsl(128, 62%, 62%) 4%, hsl(290, 68%, 48%) 100%);
 }
 
 .Pedra {
-  background: radial-gradient(circle, rgba(136,132,123,1) 4%, rgba(73,67,74,1) 100%);
+  background: radial-gradient(circle, hsl(42, 5%, 51%) 4%, hsl(291, 5%, 28%) 100%);
 }
 
 .Fantasma {
-  background: radial-gradient(circle, rgba(36,34,34,1) 0%, rgba(104,24,215,1) 100%);
+  background: radial-gradient(circle, hsl(0, 3%, 14%) 0%, hsl(265, 80%, 47%) 100%);
 }
 
 .Dragao {
-  background: radial-gradient(circle, rgba(166,185,11,1) 0%, rgba(170,70,33,1) 100%);
+  background: radial-gradient(circle, hsl(67, 89%, 38%) 0%, hsl(16, 67%, 40%) 100%);
 }
 
 .Metalico {
-  background: radial-gradient(circle, rgba(182,182,182,1) 0%, rgba(135,135,135,1) 100%);
+  background: radial-gradient(circle, hsl(0, 0%, 71%) 0%, hsl(0, 0%, 53%) 100%);
 }
 
 .Fada {
-  background: radial-gradient(circle, rgba(190,190,190,1) 0%, rgba(215,87,226,1) 100%);
+  background: radial-gradient(circle, white, hsl(295, 71%, 61%) 100%);
 }

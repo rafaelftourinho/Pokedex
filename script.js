@@ -37,8 +37,8 @@ const upateCard = (typeString) => {
   const types = typeString.split('/');
 
   cardHTML.classList = `card-top ${cleanString(types[0])}`;
+  
   typesHTMl.innerHTML = '';
-
   types.forEach((tp) => {
     typesHTMl.innerHTML += `<p class="poke-type ${cleanString(tp)}">${tp}</p>`;
   });
