@@ -54,7 +54,7 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
-git clone git@github.com:marlondlacerda/Pokedex.git
+git clone git@github.com:rafaelftourinho/Pokedex.git
 # ou use a opção de download.
 
 # Entre na pasta web com 
