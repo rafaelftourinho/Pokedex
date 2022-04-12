@@ -38,7 +38,7 @@ Os dados são cosumidos de uma api própria desenvolvida por nós.
 <br>
 
 <p align="center">
-  <img src="./images/preview.png" alt="Página inicial" width="50%" />
+  <img src="./assets/Pokedex.gif" alt="Página inicial" width="50%" />
 
 </p>
 
